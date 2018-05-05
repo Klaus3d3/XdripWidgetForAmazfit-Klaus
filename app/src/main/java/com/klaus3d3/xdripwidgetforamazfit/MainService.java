@@ -67,6 +67,7 @@ public class MainService extends Service implements Transporter.ChannelListener,
 
     @Override
     public void onChannelChanged(boolean b) {
+        HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
     }
 
     private void initTransporter() {
