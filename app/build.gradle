@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId 'com.klaus3d3.xdripwidgetforamazfit'
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "0.0.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.mikepenz:iconics-core:3.0.3@aar'
+    implementation 'com.mikepenz:iconics-views:3.0.3@aar'
+    implementation 'com.mikepenz:google-material-typeface:3.0.1.2.original@aar'
+    implementation 'xiaofei.library:hermes-eventbus:0.3.0'
+    implementation 'com.github.marlonlom:timeago:3.0.2'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation files('libs/Launcher.jar')
+    implementation files('libs/SpringboardPluginLib.jar')
+    //implementation files('libs/AmazfitCommunication.jar')
+    //implementation files('libs/Transport.jar')
+}
