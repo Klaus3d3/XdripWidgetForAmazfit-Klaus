@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.Paint;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.text.format.DateFormat;
 
 import com.klaus3d3.xdripwidgetforamazfit.Constants;
 import com.klaus3d3.xdripwidgetforamazfit.R;
@@ -19,10 +21,13 @@ import com.klaus3d3.xdripwidgetforamazfit.events.NightscoutDataEvent;
 import com.klaus3d3.xdripwidgetforamazfit.events.NightscoutRequestSyncEvent;
 import com.github.marlonlom.utilities.timeago.TimeAgo;
 import com.mikepenz.iconics.Iconics;
+import android.text.style.StrikethroughSpan;
 
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
+
+import java.util.Date;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -51,6 +56,10 @@ public class NightscoutPage extends AbstractPlugin {
     private String lastDelta;
     private Boolean lastishigh;
     private Boolean lastislow;
+    private Boolean lastisstale;
+    private Boolean lastfrom_plugin;
+    private String lastExtra_string;
+    private String last_plugin_name;
 
 
 
@@ -91,7 +100,7 @@ public class NightscoutPage extends AbstractPlugin {
     @OnClick(R2.id.nightscout_refresh_button)
     public void requestSync() {
        // HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
-        Toast.makeText(mContext, "Nothing", Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + ", " + lastExtra_string, Toast.LENGTH_LONG).show();
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
@@ -105,14 +114,24 @@ public class NightscoutPage extends AbstractPlugin {
         lastDelta = nightscoutDataEvent.getDelta();
         lastishigh = nightscoutDataEvent.getIshigh();
         lastislow = nightscoutDataEvent.getIslow();
+        lastisstale= nightscoutDataEvent.getIsstale();
+        lastfrom_plugin=nightscoutDataEvent.getFrom_plugin();
+        last_plugin_name=nightscoutDataEvent.getPlugin_name();
+        lastExtra_string=nightscoutDataEvent.getExtrastring();
+
 
             sgv.setText(lastSgv);
             delta.setText( lastDelta);
 
             if (date != null) {
-                date.setText(TimeAgo.using(nightscoutDataEvent.getDate()));
+                date.setText(TimeAgo.using(lastDate));
             }
-            if (lastislow | lastishigh){sgv.setTextColor(Color.RED);}else{sgv.setTextColor(Color.WHITE);}
+            if (lastislow || lastishigh){sgv.setTextColor(Color.RED);}else{sgv.setTextColor(Color.WHITE);}
+            if (lastisstale || (System.currentTimeMillis()-lastDate > 10*60*1000)){
+                sgv.setPaintFlags(sgv.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+                }else{
+                sgv.setPaintFlags(sgv.getPaintFlags()  & ~ Paint.STRIKE_THRU_TEXT_FLAG);
+            }
 
     }
 
