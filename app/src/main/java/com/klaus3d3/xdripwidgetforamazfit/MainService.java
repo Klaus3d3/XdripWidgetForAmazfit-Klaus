@@ -4,6 +4,7 @@ import android.app.Application;
 import android.app.Service;
 import android.content.Intent;
 import android.content.Context;
+
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
@@ -36,6 +37,8 @@ public class MainService extends Service implements Transporter.ChannelListener,
 
     private Transporter companionTransporter;
 
+
+
     private Map<String, Class> messages = new HashMap<String, Class>() {{
         put(Constants.ACTION_XDRIP_SYNC, NightscoutDataEvent.class);
     }};
@@ -67,7 +70,7 @@ public class MainService extends Service implements Transporter.ChannelListener,
 
     @Override
     public void onChannelChanged(boolean b) {
-        HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
+        //HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
     }
 
     private void initTransporter() {
@@ -122,7 +125,17 @@ public class MainService extends Service implements Transporter.ChannelListener,
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void requestNightscoutSync(NightscoutRequestSyncEvent event) {
         Log.d(Constants.TAG, "requested nightscout sync");
+        DataBundle databundle = new DataBundle();
+        databundle.putInt("heart_rate",99);
+        databundle.putInt("heart_acuracy",1);
+        databundle.putInt("steps",3478);
 
-        companionTransporter.send(Constants.ACTION_XDRIP_SYNC, new DataBundle());
+        companionTransporter.send(Constants.ACTION_Amazfit_Healthdata, databundle);
     }
+
+
+
+
+
+
 }

@@ -16,4 +16,5 @@ public class Constants {
 
     public static final String ACTION_XDRIP_SYNC = "Xdrip_synced_SGV_data";
     public static final String ACTION_XDRIP_ALARM = "xDrip_Alarm";
+    public static final String ACTION_Amazfit_Healthdata = "Amazfit_Healthdata";
 }

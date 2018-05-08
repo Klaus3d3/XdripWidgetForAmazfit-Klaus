@@ -60,7 +60,7 @@ public class NightscoutPage extends AbstractPlugin {
     private Boolean lastfrom_plugin;
     private String lastExtra_string;
     private String last_plugin_name;
-
+    private int last_warning;
 
 
 
@@ -100,7 +100,7 @@ public class NightscoutPage extends AbstractPlugin {
     @OnClick(R2.id.nightscout_refresh_button)
     public void requestSync() {
        // HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
-        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + ", " + lastExtra_string, Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + ", " + lastExtra_string + ", Warning: "+ String.valueOf(last_warning), Toast.LENGTH_LONG).show();
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
@@ -118,7 +118,7 @@ public class NightscoutPage extends AbstractPlugin {
         lastfrom_plugin=nightscoutDataEvent.getFrom_plugin();
         last_plugin_name=nightscoutDataEvent.getPlugin_name();
         lastExtra_string=nightscoutDataEvent.getExtrastring();
-
+        last_warning=nightscoutDataEvent.getWarning();
 
             sgv.setText(lastSgv);
             delta.setText( lastDelta);
@@ -130,7 +130,7 @@ public class NightscoutPage extends AbstractPlugin {
             if (lastisstale || (System.currentTimeMillis()-lastDate > 10*60*1000)){
                 sgv.setPaintFlags(sgv.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
                 }else{
-                sgv.setPaintFlags(sgv.getPaintFlags()  & ~ Paint.STRIKE_THRU_TEXT_FLAG);
+                sgv.setPaintFlags(sgv.getPaintFlags()  & (~ Paint.STRIKE_THRU_TEXT_FLAG));
             }
 
     }
