@@ -100,7 +100,7 @@ public class NightscoutPage extends AbstractPlugin {
     @OnClick(R2.id.nightscout_refresh_button)
     public void requestSync() {
        // HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
-        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + ", " + lastExtra_string + ", Warning: "+ String.valueOf(last_warning), Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + ", " + lastExtra_string + ", Warning: "+ String.valueOf(last_warning) + "Zeit:"+ String.valueOf(System.currentTimeMillis()-lastDate), Toast.LENGTH_LONG).show();
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
@@ -120,16 +120,20 @@ public class NightscoutPage extends AbstractPlugin {
         lastExtra_string=nightscoutDataEvent.getExtrastring();
         last_warning=nightscoutDataEvent.getWarning();
 
-            sgv.setText(lastSgv);
-            delta.setText( lastDelta);
+            //if (lastfrom_plugin){
+           //     sgv.setText("℗ " + lastSgv);}
+           // else{
+                sgv.setText(lastSgv);
+
+            delta.setText(lastDelta);
 
             if (date != null) {
                 date.setText(TimeAgo.using(lastDate));
             }
-            if (lastislow || lastishigh){sgv.setTextColor(Color.RED);}else{sgv.setTextColor(Color.WHITE);}
-            if (lastisstale || (System.currentTimeMillis()-lastDate > 10*60*1000)){
-                sgv.setPaintFlags(sgv.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
-                }else{
+            if (lastislow || lastishigh || lastisstale){sgv.setTextColor(Color.RED);}else{sgv.setTextColor(Color.WHITE);}
+            if (lastisstale){
+                sgv.setPaintFlags(sgv.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);}
+                else{
                 sgv.setPaintFlags(sgv.getPaintFlags()  & (~ Paint.STRIKE_THRU_TEXT_FLAG));
             }
 
@@ -176,6 +180,11 @@ public class NightscoutPage extends AbstractPlugin {
 
         if (date != null) {
             date.setText(TimeAgo.using(Long.valueOf(lastDate)));
+        }
+        if (sgv !=null) {
+            if(System.currentTimeMillis()-lastDate > 600000){
+                sgv.setTextColor(Color.RED);
+                sgv.setPaintFlags(sgv.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);}
         }
 
         //Store active state
