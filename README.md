@@ -33,6 +33,7 @@ adb reboot
 - Repeat steps 3 and
 
 remove old apk with
+
 adb shell
 rm -f /system/priv-app/xDripwidget.apk
 
