@@ -101,7 +101,11 @@ public class NightscoutPage extends AbstractPlugin {
     @OnClick(R2.id.nightscout_refresh_button)
     public void requestSync() {
        // HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
+<<<<<<< HEAD
         Toast.makeText(mContext, "Plugin: "+ last_plugin_name + ", " + lastExtra_string + ", Warning: "+ String.valueOf(last_warning) , Toast.LENGTH_LONG).show();
+=======
+        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + ", " + lastExtra_string + ", Warning: "+ String.valueOf(last_warning) + "Zeit:"+ String.valueOf(System.currentTimeMillis()-lastDate), Toast.LENGTH_LONG).show();
+>>>>>>> 5cb249c75683a50a63d392941146629841fc0c05
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
@@ -130,7 +134,11 @@ public class NightscoutPage extends AbstractPlugin {
             //if (lastfrom_plugin){
            //     sgv.setText("℗ " + lastSgv);}
            // else{
+<<<<<<< HEAD
             sgv.setText(lastSgv);
+=======
+                sgv.setText(lastSgv);
+>>>>>>> 5cb249c75683a50a63d392941146629841fc0c05
 
             delta.setText(lastDelta);
 
