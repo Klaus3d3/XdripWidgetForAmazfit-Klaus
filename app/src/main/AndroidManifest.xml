@@ -1,10 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.klaus3d3.xdripwidgetforamazfit"
+    xmlns:tools="http://schemas.android.com/tools"
+
     android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
 
+    <uses-sdk tools:overrideLibrary="android.support.wear" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
 
     <application
         android:allowBackup="true"

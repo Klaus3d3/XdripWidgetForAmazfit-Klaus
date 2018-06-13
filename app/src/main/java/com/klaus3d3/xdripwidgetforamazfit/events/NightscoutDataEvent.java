@@ -27,7 +27,7 @@ public class NightscoutDataEvent {
         islow = (Boolean) dataBundle.get("islow");
         ishigh = (Boolean) dataBundle.get("ishigh");
         isstale = (Boolean) dataBundle.get("isstale");
-        from_plugin = (Boolean) dataBundle.get("from_plugin");
+        from_plugin = (Boolean) dataBundle.get("fromplugin");
         plugin_name = dataBundle.getString("plugin_name");
         extra_string = dataBundle.getString("extra_string");
         warning = dataBundle.getInt("warning");

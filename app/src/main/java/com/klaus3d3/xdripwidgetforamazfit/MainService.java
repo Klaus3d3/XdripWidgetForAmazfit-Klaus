@@ -1,9 +1,9 @@
 package com.klaus3d3.xdripwidgetforamazfit;
 
-import android.app.Application;
 import android.app.Service;
 import android.content.Intent;
 import android.content.Context;
+
 
 import android.os.IBinder;
 import android.support.annotation.Nullable;
@@ -15,8 +15,9 @@ import com.klaus3d3.xdripwidgetforamazfit.events.NightscoutRequestSyncEvent;
 
 import com.huami.watch.transport.DataBundle;
 import com.huami.watch.transport.TransportDataItem;
-import com.huami.watch.transport.Transporter;
-import com.huami.watch.transport.TransporterClassic;
+
+import com.kieronquinn.library.amazfitcommunication.Transporter;
+import com.kieronquinn.library.amazfitcommunication.TransporterClassic;
 
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
@@ -33,11 +34,11 @@ import xiaofei.library.hermeseventbus.HermesEventBus;
  * modded by klaus3d3 for xdrip
  */
 
-public class MainService extends Service implements Transporter.ChannelListener, Transporter.ServiceConnectionListener {
+public class MainService extends Service { //} implements Transporter.ChannelListener, Transporter.ServiceConnectionListener {
 
-    private Transporter companionTransporter;
+    private TransporterClassic companionTransporter;
 
-
+    private Context context;
 
     private Map<String, Class> messages = new HashMap<String, Class>() {{
         put(Constants.ACTION_XDRIP_SYNC, NightscoutDataEvent.class);
@@ -68,15 +69,20 @@ public class MainService extends Service implements Transporter.ChannelListener,
         return super.onStartCommand(intent, flags, startId);
     }
 
-    @Override
+    //@Override
     public void onChannelChanged(boolean b) {
         //HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
     }
 
     private void initTransporter() {
-        companionTransporter = TransporterClassic.get(this, Constants.TRANSPORTER_MODULE);
-        companionTransporter.addChannelListener(this);
-        companionTransporter.addServiceConnectionListener(this);
+        companionTransporter = (TransporterClassic) Transporter.get (this, Constants.TRANSPORTER_MODULE);
+        companionTransporter.addChannelListener(new Transporter.ChannelListener() {
+            @Override
+            public void onChannelChanged(boolean ready) {
+
+            }
+        });
+        //companionTransporter.addServiceConnectionListener(this);
         companionTransporter.addDataListener(new Transporter.DataListener() {
             @Override
             public void onDataReceived(TransportDataItem transportDataItem) {
@@ -124,11 +130,12 @@ public class MainService extends Service implements Transporter.ChannelListener,
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void requestNightscoutSync(NightscoutRequestSyncEvent event) {
+        //Context context = new Context;
         Log.d(Constants.TAG, "requested nightscout sync");
         DataBundle databundle = new DataBundle();
         databundle.putInt("heart_rate",99);
         databundle.putInt("heart_acuracy",1);
-        databundle.putInt("steps",3478);
+        databundle.putInt("steps",2345);
 
         companionTransporter.send(Constants.ACTION_Amazfit_Healthdata, databundle);
     }
