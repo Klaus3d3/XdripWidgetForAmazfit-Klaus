@@ -96,7 +96,7 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
                     return;
                 }
                 //HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
-                HermesEventBus.getDefault().post(new SnoozeEvent());
+                //HermesEventBus.getDefault().post(new SnoozeEvent());
                 Class messageClass = messages.get(action);
 
                 if (messageClass != null) {
@@ -141,12 +141,13 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
 
         companionTransporter.send(Constants.ACTION_Amazfit_Healthdata, databundle);
     }
+    @Subscribe(threadMode = ThreadMode.MAIN)
     public void Snooze(SnoozeEvent event) {
 
         DataBundle databundle = new DataBundle();
         databundle.putInt("UUID",99);
 
-        Toast.makeText(this, "....now", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "snoozing now", Toast.LENGTH_LONG).show();
         companionTransporter.send(Constants.ACTION_Amazfit_Snooze, databundle);
 
     }

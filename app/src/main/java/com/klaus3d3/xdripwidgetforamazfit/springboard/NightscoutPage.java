@@ -107,7 +107,7 @@ public class NightscoutPage extends AbstractPlugin {
     @OnClick(R2.id.snooze_button)
     public void snooze_click() {
         HermesEventBus.getDefault().post(new SnoozeEvent());
-        Toast.makeText(mContext, "snoozing...", Toast.LENGTH_LONG).show();
+       // Toast.makeText(mContext, "snoozing...", Toast.LENGTH_LONG).show();
     }
 
 
