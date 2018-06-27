@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Xdrip+-XdripWidgetForAmazfit-Klaus.iml" filepath="$PROJECT_DIR$/Xdrip+-XdripWidgetForAmazfit-Klaus.iml" />
       <module fileurl="file://$PROJECT_DIR$/XdripWidgetForAmazfit-Klaus.iml" filepath="$PROJECT_DIR$/XdripWidgetForAmazfit-Klaus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/XdripWidgetForAmazfit-Klaus-app.iml" filepath="$PROJECT_DIR$/app/XdripWidgetForAmazfit-Klaus-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

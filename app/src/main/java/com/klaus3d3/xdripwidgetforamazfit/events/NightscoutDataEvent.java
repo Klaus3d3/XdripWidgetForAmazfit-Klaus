@@ -19,6 +19,7 @@ public class NightscoutDataEvent {
     private String plugin_name;
     private String extra_string;
     private int warning;
+    private String alert;
 
     public NightscoutDataEvent(DataBundle dataBundle) {
         date = (Long) dataBundle.get("date");
@@ -31,6 +32,7 @@ public class NightscoutDataEvent {
         plugin_name = dataBundle.getString("plugin_name");
         extra_string = dataBundle.getString("extra_string");
         warning = dataBundle.getInt("warning");
+        alert = dataBundle.getString("alert");
     }
 
     public Long getDate() {
@@ -50,6 +52,13 @@ public class NightscoutDataEvent {
     }
     public void setPlugin_name(String plugin_name) {
         this.plugin_name = plugin_name;
+    }
+
+    public String getAlert() {
+        return alert;
+    }
+    public void setAlert(String alert) {
+        this.alert = alert;
     }
 
     public String getExtrastring() {

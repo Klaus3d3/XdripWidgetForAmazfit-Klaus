@@ -8,6 +8,7 @@ import android.content.Context;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
+import android.widget.Toast;
 
 
 import com.klaus3d3.xdripwidgetforamazfit.events.NightscoutDataEvent;
@@ -18,6 +19,7 @@ import com.huami.watch.transport.TransportDataItem;
 
 import com.kieronquinn.library.amazfitcommunication.Transporter;
 import com.kieronquinn.library.amazfitcommunication.TransporterClassic;
+import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeEvent;
 
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
@@ -93,7 +95,8 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
                 if (action == null) {
                     return;
                 }
-                HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
+                //HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
+                HermesEventBus.getDefault().post(new SnoozeEvent());
                 Class messageClass = messages.get(action);
 
                 if (messageClass != null) {
@@ -130,8 +133,7 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void requestNightscoutSync(NightscoutRequestSyncEvent event) {
-        //Context context = new Context;
-        Log.d(Constants.TAG, "requested nightscout sync");
+
         DataBundle databundle = new DataBundle();
         databundle.putInt("heart_rate",99);
         databundle.putInt("heart_acuracy",1);
@@ -139,7 +141,15 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
 
         companionTransporter.send(Constants.ACTION_Amazfit_Healthdata, databundle);
     }
+    public void Snooze(SnoozeEvent event) {
 
+        DataBundle databundle = new DataBundle();
+        databundle.putInt("UUID",99);
+
+        Toast.makeText(this, "....now", Toast.LENGTH_LONG).show();
+        companionTransporter.send(Constants.ACTION_Amazfit_Snooze, databundle);
+
+    }
 
 
 

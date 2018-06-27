@@ -12,22 +12,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.text.format.DateFormat;
 
 import com.klaus3d3.xdripwidgetforamazfit.Constants;
 import com.klaus3d3.xdripwidgetforamazfit.R;
 import com.klaus3d3.xdripwidgetforamazfit.R2;
 import com.klaus3d3.xdripwidgetforamazfit.events.NightscoutDataEvent;
 import com.klaus3d3.xdripwidgetforamazfit.events.NightscoutRequestSyncEvent;
+import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeEvent;
 import com.github.marlonlom.utilities.timeago.TimeAgo;
+
 import com.mikepenz.iconics.Iconics;
-import android.text.style.StrikethroughSpan;
 
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-
-import java.util.Date;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -62,6 +60,7 @@ public class NightscoutPage extends AbstractPlugin {
     private String last_plugin_name;
     private int last_warning;
     private final String plugin_symbol = "℗ ";
+    private String lastalert;
 
 
 
@@ -73,9 +72,10 @@ public class NightscoutPage extends AbstractPlugin {
     TextView date;
     @BindView(R2.id.nightscout_delta_text_view)
     TextView delta;
+    @BindView(R2.id.prediction_text)
+    TextView prediction;
 
-   // @BindView(R2.id.nightscout_direction_textview)
-    //IconicsTextView direction;
+
 
     //Much like a fragment, getView returns the content view of the page. You can set up your layout here
     @Override
@@ -98,12 +98,18 @@ public class NightscoutPage extends AbstractPlugin {
         return mView;
     }
 
-    @OnClick(R2.id.nightscout_refresh_button)
-    public void requestSync() {
-       // HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
-        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + ", " + lastExtra_string + ", Warning: "+ String.valueOf(last_warning) , Toast.LENGTH_LONG).show();
 
+    @OnClick(R2.id.nightscout_sgv_textview)
+    public void sgv_click() {
+        // HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
+        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + " Alert" + lastalert, Toast.LENGTH_LONG).show();
     }
+    @OnClick(R2.id.snooze_button)
+    public void snooze_click() {
+        HermesEventBus.getDefault().post(new SnoozeEvent());
+        Toast.makeText(mContext, "snoozing...", Toast.LENGTH_LONG).show();
+    }
+
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void updateData(NightscoutDataEvent nightscoutDataEvent) {
@@ -123,7 +129,7 @@ public class NightscoutPage extends AbstractPlugin {
         lastishigh = nightscoutDataEvent.getIshigh();
         lastislow = nightscoutDataEvent.getIslow();
         lastisstale= nightscoutDataEvent.getIsstale();
-
+        lastalert = nightscoutDataEvent.getAlert();
 
         lastExtra_string=nightscoutDataEvent.getExtrastring();
         last_warning=nightscoutDataEvent.getWarning();
@@ -140,6 +146,7 @@ public class NightscoutPage extends AbstractPlugin {
                 else{
                 sgv.setPaintFlags(sgv.getPaintFlags()  & (~ Paint.STRIKE_THRU_TEXT_FLAG));
             }
+            prediction.setText(lastExtra_string);
 
     }
 
