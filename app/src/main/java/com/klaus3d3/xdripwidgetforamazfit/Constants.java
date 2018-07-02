@@ -14,8 +14,10 @@ public class Constants {
 
     public static final String TRANSPORTER_MODULE = "com.eveningoutpost.dexdrip.wearintegration";
 
-    public static final String ACTION_XDRIP_SYNC = "Xdrip_synced_SGV_data";
+    public static final String ACTION_XDRIP_SYNC = "xDrip_synced_SGV_data";
     public static final String ACTION_XDRIP_ALARM = "xDrip_Alarm";
-    public static final String ACTION_Amazfit_Healthdata = "Amazfit_Healthdata";
-    public static final String ACTION_Amazfit_Snooze = "Amazfit_Snooze";
+    public static final String ACTION_XDRIP_SNOOZE_CONFIRMATION = "SnoozeRemoteConfirmation";
+    public static final String ACTION_XDRIP_CANCEL_CONFIRMATION = "xDrip_AlarmCancel";
+    public static final String ACTION_Amazfit_Snooze = "Amazfit_Remote_Snooze";
+    public static final String ACTION_XDRIP_DATA_CONFIRMATION = "SGVDataConfirmation";
 }

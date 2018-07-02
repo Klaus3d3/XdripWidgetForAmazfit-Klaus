@@ -11,8 +11,10 @@ import android.util.Log;
 import android.widget.Toast;
 
 
-import com.klaus3d3.xdripwidgetforamazfit.events.NightscoutDataEvent;
-import com.klaus3d3.xdripwidgetforamazfit.events.NightscoutRequestSyncEvent;
+import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeRemoteConfirmation;
+import com.klaus3d3.xdripwidgetforamazfit.events.xDripAlarm;
+import com.klaus3d3.xdripwidgetforamazfit.events.xDripDataRecieved;
+import com.klaus3d3.xdripwidgetforamazfit.events.xDripCancelConfirmation;
 
 import com.huami.watch.transport.DataBundle;
 import com.huami.watch.transport.TransportDataItem;
@@ -42,9 +44,7 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
 
     private Context context;
 
-    private Map<String, Class> messages = new HashMap<String, Class>() {{
-        put(Constants.ACTION_XDRIP_SYNC, NightscoutDataEvent.class);
-    }};
+
 
     @Override
     public void onCreate() {
@@ -52,6 +52,7 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
 
         HermesEventBus.getDefault().init(this);
         HermesEventBus.getDefault().register(this);
+
     }
 
     @Nullable
@@ -73,7 +74,7 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
 
     //@Override
     public void onChannelChanged(boolean b) {
-        //HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
+
     }
 
     private void initTransporter() {
@@ -89,38 +90,28 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
             @Override
             public void onDataReceived(TransportDataItem transportDataItem) {
                 String action = transportDataItem.getAction();
-
+                DataBundle db = transportDataItem.getData();
                 Log.d(Constants.TAG, "action: " + action + ", module: " + transportDataItem.getModuleName());
 
                 if (action == null) {
                     return;
                 }
-                //HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
-                //HermesEventBus.getDefault().post(new SnoozeEvent());
-                Class messageClass = messages.get(action);
+                if (action.equals(Constants.ACTION_XDRIP_SYNC))
+                {   HermesEventBus.getDefault().post(new xDripDataRecieved(db));
+                    confirm_sgv_data(db.getString("reply_message"));
 
-                if (messageClass != null) {
-                    Class[] args = new Class[1];
-                    args[0] = DataBundle.class;
+                }
+                if (action.equals(Constants.ACTION_XDRIP_ALARM))
+                {   HermesEventBus.getDefault().post(new xDripAlarm(db));
+                    confirm_sgv_data(db.getString("reply_message"));
 
-                    try {
-                        Constructor eventContructor = messageClass.getDeclaredConstructor(args);
-                        Object event = eventContructor.newInstance(transportDataItem.getData());
+                }
+                if (action.equals(Constants.ACTION_XDRIP_SNOOZE_CONFIRMATION)) HermesEventBus.getDefault().post(new SnoozeRemoteConfirmation(db));
 
-                        Log.d(Constants.TAG, "posting event " + event.toString());
-                        HermesEventBus.getDefault().post(event);
-                    } catch (NoSuchMethodException e) {
-                        Log.w(Constants.TAG, "event mapped with action \"" + action + "\" doesn't have constructor with DataBundle as parameter");
-                        e.printStackTrace();
-                    } catch (IllegalAccessException e) {
-                        e.printStackTrace();
-                    } catch (InstantiationException e) {
-                        e.printStackTrace();
-                    } catch (InvocationTargetException e) {
-                        e.printStackTrace();
-                    } catch (Exception ex) {
-                        ex.printStackTrace();
-                    }
+                if (action.equals(Constants.ACTION_XDRIP_CANCEL_CONFIRMATION))
+                {   HermesEventBus.getDefault().post(new xDripCancelConfirmation(db));
+                    confirm_sgv_data(db.getString("reply_message"));
+
                 }
             }
         });
@@ -129,28 +120,26 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
             Log.d(Constants.TAG, "connecting companionTransporter to transportService");
             companionTransporter.connectTransportService();
         }
+
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    public void requestNightscoutSync(NightscoutRequestSyncEvent event) {
 
-        DataBundle databundle = new DataBundle();
-        databundle.putInt("heart_rate",99);
-        databundle.putInt("heart_acuracy",1);
-        databundle.putInt("steps",2345);
 
-        companionTransporter.send(Constants.ACTION_Amazfit_Healthdata, databundle);
+
+    public void confirm_sgv_data(String message) {
+        DataBundle db = new DataBundle();
+        db.putString("reply_message",message);
+        companionTransporter.send(Constants.ACTION_XDRIP_DATA_CONFIRMATION,db);
     }
+
+
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void Snooze(SnoozeEvent event) {
 
-        DataBundle databundle = new DataBundle();
-        databundle.putInt("UUID",99);
-
-        Toast.makeText(this, "snoozing now", Toast.LENGTH_LONG).show();
-        companionTransporter.send(Constants.ACTION_Amazfit_Snooze, databundle);
+        companionTransporter.send(Constants.ACTION_Amazfit_Snooze);
 
     }
+
 
 
 

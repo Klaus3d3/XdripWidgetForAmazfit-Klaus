@@ -10,22 +10,28 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.klaus3d3.xdripwidgetforamazfit.Constants;
 import com.klaus3d3.xdripwidgetforamazfit.R;
 import com.klaus3d3.xdripwidgetforamazfit.R2;
-import com.klaus3d3.xdripwidgetforamazfit.events.NightscoutDataEvent;
-import com.klaus3d3.xdripwidgetforamazfit.events.NightscoutRequestSyncEvent;
+import com.klaus3d3.xdripwidgetforamazfit.events.xDripDataRecieved;
 import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeEvent;
+import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeRemoteConfirmation;
+import com.klaus3d3.xdripwidgetforamazfit.events.xDripAlarm;
+import com.klaus3d3.xdripwidgetforamazfit.events.xDripCancelConfirmation;
 import com.github.marlonlom.utilities.timeago.TimeAgo;
 
 import com.mikepenz.iconics.Iconics;
 
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-
+import android.os.Vibrator;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -48,19 +54,23 @@ public class NightscoutPage extends AbstractPlugin {
 
     private boolean eventBusConnected;
     private Long lastDate;
-
-    private String trendArrow;
     private String lastSgv;
     private String lastDelta;
     private Boolean lastishigh;
     private Boolean lastislow;
     private Boolean lastisstale;
     private Boolean lastfrom_plugin;
-    private String lastExtra_string;
     private String last_plugin_name;
-    private int last_warning;
     private final String plugin_symbol = "℗ ";
-    private String lastalert;
+    private Boolean lastalert;
+    private Vibrator vibe;
+    private String last_reply_message;
+    private String lastlow_predicted;
+    private String lastin;
+    private String lastspace_mins;
+    private String predictiontext;
+    private double lastlow_occurs_at;
+
 
 
 
@@ -74,6 +84,10 @@ public class NightscoutPage extends AbstractPlugin {
     TextView delta;
     @BindView(R2.id.prediction_text)
     TextView prediction;
+    @BindView(R2.id.snooze_button)
+    Button Snooze_Button;
+    @BindView(R2.id.time)
+    TextView time;
 
 
 
@@ -101,38 +115,49 @@ public class NightscoutPage extends AbstractPlugin {
 
     @OnClick(R2.id.nightscout_sgv_textview)
     public void sgv_click() {
-        // HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
+
         Toast.makeText(mContext, "Plugin: "+ last_plugin_name + " Alert" + lastalert, Toast.LENGTH_LONG).show();
     }
     @OnClick(R2.id.snooze_button)
     public void snooze_click() {
+        this.vibe = (Vibrator) this.mContext.getSystemService(Context.VIBRATOR_SERVICE);
         HermesEventBus.getDefault().post(new SnoozeEvent());
-       // Toast.makeText(mContext, "snoozing...", Toast.LENGTH_LONG).show();
+        vibe.cancel();
+
     }
 
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    public void updateData(NightscoutDataEvent nightscoutDataEvent) {
-        Log.d(Constants.TAG_NIGHTSCOUT_PAGE, "NightscoutDataEvent received");
+    public void updateData(xDripDataRecieved xDripData) {
+        Log.d(Constants.TAG_NIGHTSCOUT_PAGE, "xDripDataRecieved received");
 
 // getting the data from Hermes
 
-        lastDate = nightscoutDataEvent.getDate();
+        lastDate = xDripData.getDate();
 
-        lastfrom_plugin=nightscoutDataEvent.getFrom_plugin();
+        lastfrom_plugin=xDripData.getFrom_plugin();
 
-        last_plugin_name=nightscoutDataEvent.getPlugin_name();
-        if (lastfrom_plugin) lastSgv =  plugin_symbol + String.valueOf(nightscoutDataEvent.getSgv());
-        else lastSgv = String.valueOf(nightscoutDataEvent.getSgv());
+        last_plugin_name=xDripData.getPlugin_name();
+        if (lastfrom_plugin) lastSgv =  plugin_symbol + String.valueOf(xDripData.getSgv());
+        else lastSgv = String.valueOf(xDripData.getSgv());
+        lastDelta = xDripData.getDelta();
+        lastishigh = xDripData.getIshigh();
+        lastislow = xDripData.getIslow();
+        lastisstale= xDripData.getIsstale();
+        last_reply_message = xDripData.getReply_message();
+        lastin = xDripData.getin();
+        lastlow_predicted = xDripData.getlow_predicted();
+        lastspace_mins = xDripData.getspace_mins();
+        lastlow_occurs_at = xDripData.getlow_occurs_at();
+        predictiontext="";
 
-        lastDelta = nightscoutDataEvent.getDelta();
-        lastishigh = nightscoutDataEvent.getIshigh();
-        lastislow = nightscoutDataEvent.getIslow();
-        lastisstale= nightscoutDataEvent.getIsstale();
-        lastalert = nightscoutDataEvent.getAlert();
+        final double predicted_low_in_mins = (lastlow_occurs_at - System.currentTimeMillis()) / 60000;
 
-        lastExtra_string=nightscoutDataEvent.getExtrastring();
-        last_warning=nightscoutDataEvent.getWarning();
+        if (predicted_low_in_mins > 1) {
+
+            predictiontext= lastlow_predicted + " " + lastin + ": " + (int) predicted_low_in_mins + lastspace_mins;
+        }
+
 
             sgv.setText(lastSgv);
             delta.setText(lastDelta);
@@ -146,9 +171,14 @@ public class NightscoutPage extends AbstractPlugin {
                 else{
                 sgv.setPaintFlags(sgv.getPaintFlags()  & (~ Paint.STRIKE_THRU_TEXT_FLAG));
             }
-            prediction.setText(lastExtra_string);
+            prediction.setText(predictiontext);
+
+
 
     }
+
+
+
 
 
 
@@ -189,6 +219,12 @@ public class NightscoutPage extends AbstractPlugin {
             initIPC(mHost.getHostWindow().getContext());
         }
 
+        if (time!=null){
+            Date today = Calendar.getInstance().getTime();
+            SimpleDateFormat zeitformat = new SimpleDateFormat("HH:mm");
+            time.setText(zeitformat.format(today.getTime()));
+            }
+
         if (date != null) {
             date.setText(TimeAgo.using(Long.valueOf(lastDate)));
         }
@@ -196,6 +232,17 @@ public class NightscoutPage extends AbstractPlugin {
             if(System.currentTimeMillis()-lastDate > 600000){
                 sgv.setTextColor(Color.RED);
                 sgv.setPaintFlags(sgv.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);}
+        }
+        if (prediction!=null) {
+            predictiontext = "";
+
+            final double predicted_low_in_mins = (lastlow_occurs_at - System.currentTimeMillis()) / 60000;
+
+            if (predicted_low_in_mins > 1) {
+
+                predictiontext = lastlow_predicted + " " + lastin + ": " + (int) predicted_low_in_mins + lastspace_mins;
+            }
+            prediction.setText(predictiontext);
         }
 
         //Store active state
@@ -206,7 +253,7 @@ public class NightscoutPage extends AbstractPlugin {
         //Called when the page reloads, check for updates here if you need to
         //Done :-) now it gets updated every time we enter the widget
 
-        HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
+        //HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
     }
 
     //Returns the springboard host
@@ -294,5 +341,32 @@ public class NightscoutPage extends AbstractPlugin {
         Log.d(Constants.TAG_NIGHTSCOUT_PAGE, "initIcons");
 
         Iconics.init(context);
+    }
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void SnoozeConfirmation(SnoozeRemoteConfirmation event) {
+        this.vibe = (Vibrator) this.mContext.getSystemService(Context.VIBRATOR_SERVICE);
+        vibe.cancel();
+        Toast.makeText(mContext, event.getReply_message(), Toast.LENGTH_LONG).show();
+        Snooze_Button.setVisibility(View.INVISIBLE);
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void Cancel_Alert(xDripCancelConfirmation event) {
+        this.vibe = (Vibrator) this.mContext.getSystemService(Context.VIBRATOR_SERVICE);
+        vibe.cancel();
+        Snooze_Button.setVisibility(View.INVISIBLE);
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void Alarm(xDripAlarm event) {
+
+
+        if (event.getuuid()!=null){
+
+            long[] pattern = {0, 600, 200};
+            vibe.vibrate(pattern, 0);
+        }
+        //Toast.makeText(mContext, event.getalarmtext(), Toast.LENGTH_LONG).show();
+        Snooze_Button.setVisibility(View.VISIBLE);
     }
 }

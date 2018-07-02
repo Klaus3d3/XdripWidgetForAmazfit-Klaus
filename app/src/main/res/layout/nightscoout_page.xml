@@ -39,23 +39,25 @@
 
     <Button
         android:id="@+id/snooze_button"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="false"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="-22dp"
-        android:width="110dp"
+        android:width="130dp"
         android:height="70dp"
         android:autoText="false"
         android:backgroundTint="@android:color/holo_orange_light"
         android:paddingBottom="0dp"
-        android:paddingEnd="1dp"
-        android:paddingStart="33dp"
+        android:paddingEnd="0dp"
+        android:paddingStart="0dp"
         android:paddingTop="40dp"
         android:rotationX="0"
         android:rotationY="0"
         android:text="Snooze"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:visibility="invisible" />
 
     <TextView
         android:id="@+id/prediction_text"
@@ -65,6 +67,16 @@
         android:layout_centerHorizontal="true"
         android:autoText="false"
         android:text="Prediction..waiting for data"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:autoText="false"
+        android:text="Time"
         android:textAllCaps="false" />
 
 </RelativeLayout>

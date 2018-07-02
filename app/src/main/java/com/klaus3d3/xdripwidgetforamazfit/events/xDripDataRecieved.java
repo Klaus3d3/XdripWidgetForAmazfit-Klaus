@@ -1,13 +1,8 @@
 package com.klaus3d3.xdripwidgetforamazfit.events;
 
 import com.huami.watch.transport.DataBundle;
-/**
- * Created by edoardotassinari on 10/04/18.
- * modded by klaus3d3 for xdrip
- */
 
-public class NightscoutDataEvent {
-
+public class xDripDataRecieved {
     private Long date;
     private String sgv;
     private String delta;
@@ -17,11 +12,16 @@ public class NightscoutDataEvent {
     private Boolean isstale;
     private Boolean from_plugin;
     private String plugin_name;
-    private String extra_string;
-    private int warning;
-    private String alert;
+    private Boolean alert;
+    private String reply_message;
+    private String low_predicted;
+    private String in;
+    private String space_mins;
+    private double low_occurs_at;
 
-    public NightscoutDataEvent(DataBundle dataBundle) {
+
+
+    public xDripDataRecieved(DataBundle dataBundle) {
         date = (Long) dataBundle.get("date");
         sgv = dataBundle.getString("sgv");
         delta = dataBundle.getString("delta");
@@ -30,9 +30,12 @@ public class NightscoutDataEvent {
         isstale = (Boolean) dataBundle.get("isstale");
         from_plugin = (Boolean) dataBundle.get("fromplugin");
         plugin_name = dataBundle.getString("plugin_name");
-        extra_string = dataBundle.getString("extra_string");
-        warning = dataBundle.getInt("warning");
-        alert = dataBundle.getString("alert");
+        alert = dataBundle.getBoolean("activealarm");
+        reply_message = dataBundle.getString("reply_message");
+        low_predicted = dataBundle.getString("low_predicted");
+        in = dataBundle.getString("in");
+        space_mins = dataBundle.getString("space_mins");
+        low_occurs_at = dataBundle.getDouble("low_occurs_at");
     }
 
     public Long getDate() {
@@ -42,11 +45,6 @@ public class NightscoutDataEvent {
         this.date = date;
     }
 
-    public int getWarning() {
-        return warning;
-    }
-    public void setWarning (int warning) { this.warning = warning; }
-
     public String getPlugin_name() {
         return plugin_name;
     }
@@ -54,18 +52,16 @@ public class NightscoutDataEvent {
         this.plugin_name = plugin_name;
     }
 
-    public String getAlert() {
-        return alert;
-    }
-    public void setAlert(String alert) {
-        this.alert = alert;
+    public String getReply_message() { return reply_message;}
+    public void setReply_message(String reply_message) {
+        this.reply_message = reply_message;
     }
 
-    public String getExtrastring() {
-        return extra_string;
+    public Boolean getAlert() {
+        return alert;
     }
-    public void setExtrastring(String extra_string) {
-        this.extra_string = extra_string;
+    public void setAlert(Boolean alert) {
+        this.alert = alert;
     }
 
     public String getSgv() {
@@ -102,5 +98,32 @@ public class NightscoutDataEvent {
     }
     public void setIshigh(Boolean ishigh) {this.ishigh= ishigh;   }
 
+    public String getlow_predicted() {
+        return low_predicted;
+    }
+    public void setlow_predicted(String low_predicted) {
+        this.low_predicted = low_predicted;
+    }
+
+    public String getin() {
+        return in;
+    }
+    public void setin(String in) {
+        this.in = in;
+    }
+
+    public String getspace_mins() {
+        return space_mins;
+    }
+    public void setspace_mins(String space_mins) {
+        this.space_mins = space_mins;
+    }
+
+    public double getlow_occurs_at() {
+        return low_occurs_at;
+    }
+    public void setlow_occurs_at(double low_occurs_at) {
+        this.low_occurs_at = low_occurs_at;
+    }
 
 }
