@@ -4,11 +4,12 @@ import android.app.Service;
 import android.content.Intent;
 import android.content.Context;
 
-
+import android.os.PowerManager;
 import android.os.IBinder;
+
 import android.support.annotation.Nullable;
 import android.util.Log;
-import android.widget.Toast;
+
 
 
 import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeRemoteConfirmation;
@@ -26,10 +27,7 @@ import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeEvent;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.util.HashMap;
-import java.util.Map;
+
 
 import xiaofei.library.hermeseventbus.HermesEventBus;
 
@@ -105,12 +103,17 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
                 {   HermesEventBus.getDefault().post(new xDripAlarm(db));
                     confirm_sgv_data(db.getString("reply_message"));
 
+
                 }
                 if (action.equals(Constants.ACTION_XDRIP_SNOOZE_CONFIRMATION)) HermesEventBus.getDefault().post(new SnoozeRemoteConfirmation(db));
 
                 if (action.equals(Constants.ACTION_XDRIP_CANCEL_CONFIRMATION))
                 {   HermesEventBus.getDefault().post(new xDripCancelConfirmation(db));
                     confirm_sgv_data(db.getString("reply_message"));
+
+                }
+                if (action.equals(Constants.ACTION_XDRIP_COMMUNICATION_CHECK))
+                {   confirm_sgv_data(db.getString("Yes, i am here"));
 
                 }
             }

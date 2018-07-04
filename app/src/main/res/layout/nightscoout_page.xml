@@ -10,14 +10,17 @@
     <TextView
         android:id="@+id/nightscout_sgv_textview"
         android:layout_width="300dp"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
         android:layout_weight="1"
         android:clickable="true"
         android:gravity="center"
         android:text="000 →"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
+        android:textScaleX="1"
         android:textSize="50sp"
         android:textStyle="bold" />
 
@@ -25,16 +28,18 @@
         android:id="@+id/nightscout_delta_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/nightscout_sgv_textview"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
         android:text="Delta..waiting for data" />
 
     <TextView
         android:id="@+id/nightscout_date_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/prediction_text"
         android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="170dp"
         android:text="Date..waiting for data" />
 
     <Button
@@ -45,7 +50,8 @@
         android:layout_marginLeft="0dp"
         android:layout_marginTop="-22dp"
         android:width="130dp"
-        android:height="70dp"
+        android:height="90dp"
+        android:alpha="1"
         android:autoText="false"
         android:backgroundTint="@android:color/holo_orange_light"
         android:paddingBottom="0dp"
@@ -54,9 +60,11 @@
         android:paddingTop="40dp"
         android:rotationX="0"
         android:rotationY="0"
+        android:singleLine="false"
         android:text="Snooze"
         android:textAlignment="center"
         android:textColor="@android:color/black"
+        android:textIsSelectable="false"
         android:visibility="invisible" />
 
     <TextView
@@ -72,11 +80,26 @@
     <TextView
         android:id="@+id/time"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
+        android:layout_margin="11dp"
         android:autoText="false"
-        android:text="Time"
-        android:textAllCaps="false" />
+        android:text="20:00"
+        android:textAllCaps="false"
+        android:textSize="50sp"
+        android:translationY="-10dp" />
+
+    <TextView
+        android:id="@+id/Menu_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="60dp"
+        android:clickable="true"
+        android:rotation="90"
+        android:rotationX="0"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="..." />
 
 </RelativeLayout>

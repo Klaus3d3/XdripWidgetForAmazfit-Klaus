@@ -8,11 +8,13 @@ import android.graphics.Paint;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.util.Log;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
 
 import com.klaus3d3.xdripwidgetforamazfit.Constants;
 import com.klaus3d3.xdripwidgetforamazfit.R;
@@ -29,6 +31,7 @@ import com.mikepenz.iconics.Iconics;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import android.os.Vibrator;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -70,7 +73,6 @@ public class NightscoutPage extends AbstractPlugin {
     private String lastspace_mins;
     private String predictiontext;
     private double lastlow_occurs_at;
-
 
 
 
@@ -123,6 +125,7 @@ public class NightscoutPage extends AbstractPlugin {
         this.vibe = (Vibrator) this.mContext.getSystemService(Context.VIBRATOR_SERVICE);
         HermesEventBus.getDefault().post(new SnoozeEvent());
         vibe.cancel();
+
 
     }
 
@@ -348,6 +351,8 @@ public class NightscoutPage extends AbstractPlugin {
         vibe.cancel();
         Toast.makeText(mContext, event.getReply_message(), Toast.LENGTH_LONG).show();
         Snooze_Button.setVisibility(View.INVISIBLE);
+        time.setVisibility(View.VISIBLE);
+
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
@@ -355,11 +360,13 @@ public class NightscoutPage extends AbstractPlugin {
         this.vibe = (Vibrator) this.mContext.getSystemService(Context.VIBRATOR_SERVICE);
         vibe.cancel();
         Snooze_Button.setVisibility(View.INVISIBLE);
+        time.setVisibility(View.VISIBLE);
+
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void Alarm(xDripAlarm event) {
-
+        this.vibe = (Vibrator) this.mContext.getSystemService(Context.VIBRATOR_SERVICE);
 
         if (event.getuuid()!=null){
 
@@ -368,5 +375,6 @@ public class NightscoutPage extends AbstractPlugin {
         }
         //Toast.makeText(mContext, event.getalarmtext(), Toast.LENGTH_LONG).show();
         Snooze_Button.setVisibility(View.VISIBLE);
+        time.setVisibility(View.INVISIBLE);
     }
 }

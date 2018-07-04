@@ -1,14 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.klaus3d3.xdripwidgetforamazfit"
     xmlns:tools="http://schemas.android.com/tools"
-
+    package="com.klaus3d3.xdripwidgetforamazfit"
     android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
 
     <uses-sdk tools:overrideLibrary="android.support.wear" />
+
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.VIBRATE"/>
-
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -23,16 +23,21 @@
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-                <action android:name="android.intent.action.REBOOT"/>
+                <action android:name="android.intent.action.REBOOT" />
                 <action android:name="android.intent.action.USER_PRESENT" />
+
                 <category android:name="android.intent.category.HOME" />
             </intent-filter>
         </receiver>
 
-        <service android:name=".MainService"></service>
-        <service android:name="xiaofei.library.hermes.HermesService$HermesService0"/>
+        <service android:name=".MainService" />
+        <service android:name="xiaofei.library.hermes.HermesService$HermesService0" />
 
-        <meta-data android:name="com.huami.watch.launcher.springboard.PASSAGER_TARGET" android:resource="@array/spring_depend" />
+        <meta-data
+            android:name="com.huami.watch.launcher.springboard.PASSAGER_TARGET"
+            android:resource="@array/spring_depend" />
+
         <activity android:name="android.support.v7.app.ActionBarActivity" />
     </application>
+
 </manifest>
