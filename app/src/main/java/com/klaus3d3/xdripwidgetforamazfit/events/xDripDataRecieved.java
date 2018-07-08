@@ -27,7 +27,7 @@ public class xDripDataRecieved {
     private double low_occurs_at;
     private Bitmap bitmap;
     private String bitmapstring;
-    private String delta_arrow;
+
 
 
 
@@ -35,7 +35,7 @@ public class xDripDataRecieved {
         date = (Long) dataBundle.get("date");
         sgv = dataBundle.getString("sgv");
         delta = dataBundle.getString("delta");
-        delta_arrow = dataBundle.getString("delta_arrow");
+
         islow = (Boolean) dataBundle.get("islow");
         ishigh = (Boolean) dataBundle.get("ishigh");
         isstale = (Boolean) dataBundle.get("isstale");
@@ -64,12 +64,7 @@ public class xDripDataRecieved {
     public void setPlugin_name(String plugin_name) {
         this.plugin_name = plugin_name;
     }
-    public String getdelta_arrow() {
-        return delta_arrow;
-    }
-    public void setdelta_arrow(String plugin_name) {
-        this.delta_arrow = delta_arrow;
-    }
+
 
     public String getPhone_battery() {
         return phone_battery;

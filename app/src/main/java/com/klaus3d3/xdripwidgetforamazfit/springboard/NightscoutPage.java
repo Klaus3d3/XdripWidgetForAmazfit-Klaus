@@ -7,6 +7,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
+import android.os.PowerManager;
 import android.util.Log;
 
 import android.view.LayoutInflater;
@@ -26,6 +27,7 @@ import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeRemoteConfirmation;
 import com.klaus3d3.xdripwidgetforamazfit.events.xDripAlarm;
 import com.klaus3d3.xdripwidgetforamazfit.events.xDripCancelConfirmation;
 import com.github.marlonlom.utilities.timeago.TimeAgo;
+
 
 import com.mikepenz.iconics.Iconics;
 
@@ -98,8 +100,7 @@ public class NightscoutPage extends AbstractPlugin {
     ImageView SGVGraph;
     @BindView(R2.id.Dateview)
     TextView Dateview;
-    @BindView(R2.id.delta_arrow)
-    TextView delta_arrow;
+
 
 
 
@@ -154,7 +155,7 @@ public class NightscoutPage extends AbstractPlugin {
         if (lastfrom_plugin) lastSgv =  plugin_symbol + String.valueOf(xDripData.getSgv());
         else lastSgv = String.valueOf(xDripData.getSgv());
         lastDelta = xDripData.getDelta();
-        lastdelta_arrow = xDripData.getdelta_arrow();
+
         lastishigh = xDripData.getIshigh();
         lastislow = xDripData.getIslow();
         lastisstale= xDripData.getIsstale();
@@ -177,7 +178,7 @@ public class NightscoutPage extends AbstractPlugin {
 
             sgv.setText(lastSgv);
             delta.setText(lastDelta);
-            delta_arrow.setText(lastdelta_arrow);
+
 
             if (date != null) {
                 date.setText(TimeAgo.using(lastDate));
@@ -287,6 +288,8 @@ public class NightscoutPage extends AbstractPlugin {
         Log.d(Constants.TAG, "onBindHost");
         //Store host
         mHost = paramISpringBoardHostStub;
+
+
     }
 
     //Called when the page is destroyed completely (in app mode). Same as the onDestroy method of an activity
@@ -368,7 +371,7 @@ public class NightscoutPage extends AbstractPlugin {
         vibe.cancel();
         Toast.makeText(mContext, event.getReply_message(), Toast.LENGTH_LONG).show();
         Snooze_Button.setVisibility(View.INVISIBLE);
-        time.setVisibility(View.VISIBLE);
+
         delta.setText(lastDelta);
         prediction.setText(predictiontext);
 
@@ -395,7 +398,7 @@ public class NightscoutPage extends AbstractPlugin {
         }
         //Toast.makeText(mContext, event.getalarmtext(), Toast.LENGTH_LONG).show();
         Snooze_Button.setVisibility(View.VISIBLE);
-        time.setVisibility(View.INVISIBLE);
+
         delta.setText(event.getalarmtext());
         prediction.setText(event.getuuid());
 
