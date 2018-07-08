@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ImageView;
 
 
 import com.klaus3d3.xdripwidgetforamazfit.Constants;
@@ -64,7 +65,7 @@ public class NightscoutPage extends AbstractPlugin {
     private Boolean lastisstale;
     private Boolean lastfrom_plugin;
     private String last_plugin_name;
-    private final String plugin_symbol = "℗ ";
+    private final String plugin_symbol = "℗";
     private Boolean lastalert;
     private Vibrator vibe;
     private String last_reply_message;
@@ -72,7 +73,10 @@ public class NightscoutPage extends AbstractPlugin {
     private String lastin;
     private String lastspace_mins;
     private String predictiontext;
+    private String lastphone_battery;
     private double lastlow_occurs_at;
+    private Bitmap lastbitmap;
+    private String lastdelta_arrow;
 
 
 
@@ -90,6 +94,12 @@ public class NightscoutPage extends AbstractPlugin {
     Button Snooze_Button;
     @BindView(R2.id.time)
     TextView time;
+    @BindView(R2.id.SGVGraph)
+    ImageView SGVGraph;
+    @BindView(R2.id.Dateview)
+    TextView Dateview;
+    @BindView(R2.id.delta_arrow)
+    TextView delta_arrow;
 
 
 
@@ -118,7 +128,7 @@ public class NightscoutPage extends AbstractPlugin {
     @OnClick(R2.id.nightscout_sgv_textview)
     public void sgv_click() {
 
-        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + " Alert" + lastalert, Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + System.lineSeparator()+"Phone Battery :" + lastphone_battery, Toast.LENGTH_LONG).show();
     }
     @OnClick(R2.id.snooze_button)
     public void snooze_click() {
@@ -144,6 +154,7 @@ public class NightscoutPage extends AbstractPlugin {
         if (lastfrom_plugin) lastSgv =  plugin_symbol + String.valueOf(xDripData.getSgv());
         else lastSgv = String.valueOf(xDripData.getSgv());
         lastDelta = xDripData.getDelta();
+        lastdelta_arrow = xDripData.getdelta_arrow();
         lastishigh = xDripData.getIshigh();
         lastislow = xDripData.getIslow();
         lastisstale= xDripData.getIsstale();
@@ -152,7 +163,9 @@ public class NightscoutPage extends AbstractPlugin {
         lastlow_predicted = xDripData.getlow_predicted();
         lastspace_mins = xDripData.getspace_mins();
         lastlow_occurs_at = xDripData.getlow_occurs_at();
+        lastphone_battery = xDripData.getPhone_battery();
         predictiontext="";
+        lastbitmap=xDripData.getBitmap();
 
         final double predicted_low_in_mins = (lastlow_occurs_at - System.currentTimeMillis()) / 60000;
 
@@ -164,6 +177,7 @@ public class NightscoutPage extends AbstractPlugin {
 
             sgv.setText(lastSgv);
             delta.setText(lastDelta);
+            delta_arrow.setText(lastdelta_arrow);
 
             if (date != null) {
                 date.setText(TimeAgo.using(lastDate));
@@ -175,6 +189,7 @@ public class NightscoutPage extends AbstractPlugin {
                 sgv.setPaintFlags(sgv.getPaintFlags()  & (~ Paint.STRIKE_THRU_TEXT_FLAG));
             }
             prediction.setText(predictiontext);
+            SGVGraph.setImageBitmap(lastbitmap);
 
 
 
@@ -227,6 +242,11 @@ public class NightscoutPage extends AbstractPlugin {
             SimpleDateFormat zeitformat = new SimpleDateFormat("HH:mm");
             time.setText(zeitformat.format(today.getTime()));
             }
+        if (Dateview!=null){
+            Date today = Calendar.getInstance().getTime();
+            SimpleDateFormat zeitformat = new SimpleDateFormat("dd.MMM");
+            Dateview.setText(zeitformat.format(today.getTime()));
+        }
 
         if (date != null) {
             date.setText(TimeAgo.using(Long.valueOf(lastDate)));
@@ -253,10 +273,7 @@ public class NightscoutPage extends AbstractPlugin {
     }
 
     private void refreshView() {
-        //Called when the page reloads, check for updates here if you need to
-        //Done :-) now it gets updated every time we enter the widget
 
-        //HermesEventBus.getDefault().post(new NightscoutRequestSyncEvent());
     }
 
     //Returns the springboard host
@@ -352,6 +369,8 @@ public class NightscoutPage extends AbstractPlugin {
         Toast.makeText(mContext, event.getReply_message(), Toast.LENGTH_LONG).show();
         Snooze_Button.setVisibility(View.INVISIBLE);
         time.setVisibility(View.VISIBLE);
+        delta.setText(lastDelta);
+        prediction.setText(predictiontext);
 
     }
 
@@ -360,7 +379,8 @@ public class NightscoutPage extends AbstractPlugin {
         this.vibe = (Vibrator) this.mContext.getSystemService(Context.VIBRATOR_SERVICE);
         vibe.cancel();
         Snooze_Button.setVisibility(View.INVISIBLE);
-        time.setVisibility(View.VISIBLE);
+        delta.setText(lastDelta);
+        prediction.setText(predictiontext);
 
     }
 
@@ -376,5 +396,8 @@ public class NightscoutPage extends AbstractPlugin {
         //Toast.makeText(mContext, event.getalarmtext(), Toast.LENGTH_LONG).show();
         Snooze_Button.setVisibility(View.VISIBLE);
         time.setVisibility(View.INVISIBLE);
+        delta.setText(event.getalarmtext());
+        prediction.setText(event.getuuid());
+
     }
 }

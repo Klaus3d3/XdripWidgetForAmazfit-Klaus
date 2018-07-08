@@ -7,30 +7,37 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/nightscout_sgv_textview"
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerInParent="true"
-        android:layout_centerVertical="true"
-        android:layout_weight="1"
-        android:clickable="true"
-        android:gravity="center"
-        android:text="000 →"
-        android:textAlignment="center"
-        android:textColor="@color/colorAccent"
-        android:textScaleX="1"
-        android:textSize="50sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/nightscout_delta_text_view"
+    <ImageView
+        android:id="@+id/SGVGraph"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:text="Delta..waiting for data" />
+        android:layout_centerInParent="false"
+        android:layout_marginTop="75dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:autoText="false"
+        android:text="20:00"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/Dateview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="50dp"
+        android:autoText="false"
+        android:text="17.06"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/nightscout_date_textview"
@@ -39,8 +46,67 @@
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="false"
         android:layout_centerVertical="false"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="175dp"
         android:text="Date..waiting for data" />
+
+    <TextView
+        android:id="@+id/prediction_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="80dp"
+        android:autoText="false"
+        android:text="Prediction..waiting for data"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/nightscout_sgv_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="000"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textScaleX="1"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/delta_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="--"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textScaleX="1"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nightscout_delta_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="+0,0mg/dl"
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/snooze_button"
@@ -53,7 +119,7 @@
         android:height="90dp"
         android:alpha="1"
         android:autoText="false"
-        android:backgroundTint="@android:color/holo_orange_light"
+        android:backgroundTint="@android:color/holo_orange_dark"
         android:paddingBottom="0dp"
         android:paddingEnd="0dp"
         android:paddingStart="0dp"
@@ -66,40 +132,5 @@
         android:textColor="@android:color/black"
         android:textIsSelectable="false"
         android:visibility="invisible" />
-
-    <TextView
-        android:id="@+id/prediction_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/nightscout_sgv_textview"
-        android:layout_centerHorizontal="true"
-        android:autoText="false"
-        android:text="Prediction..waiting for data"
-        android:textAllCaps="false" />
-
-    <TextView
-        android:id="@+id/time"
-        android:layout_width="wrap_content"
-        android:layout_height="55dp"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="11dp"
-        android:autoText="false"
-        android:text="20:00"
-        android:textAllCaps="false"
-        android:textSize="50sp"
-        android:translationY="-10dp" />
-
-    <TextView
-        android:id="@+id/Menu_Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="195dp"
-        android:layout_marginTop="60dp"
-        android:clickable="true"
-        android:rotation="90"
-        android:rotationX="0"
-        android:scaleX="2"
-        android:scaleY="2"
-        android:text="..." />
 
 </RelativeLayout>

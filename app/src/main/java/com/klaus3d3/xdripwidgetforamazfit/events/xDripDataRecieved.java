@@ -1,6 +1,12 @@
 package com.klaus3d3.xdripwidgetforamazfit.events;
 
 import com.huami.watch.transport.DataBundle;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import java.io.ByteArrayOutputStream;
+import java.io.ByteArrayInputStream;
+import android.util.Base64;
+import java.nio.ByteBuffer;
 
 public class xDripDataRecieved {
     private Long date;
@@ -17,7 +23,11 @@ public class xDripDataRecieved {
     private String low_predicted;
     private String in;
     private String space_mins;
+    private String phone_battery;
     private double low_occurs_at;
+    private Bitmap bitmap;
+    private String bitmapstring;
+    private String delta_arrow;
 
 
 
@@ -25,6 +35,7 @@ public class xDripDataRecieved {
         date = (Long) dataBundle.get("date");
         sgv = dataBundle.getString("sgv");
         delta = dataBundle.getString("delta");
+        delta_arrow = dataBundle.getString("delta_arrow");
         islow = (Boolean) dataBundle.get("islow");
         ishigh = (Boolean) dataBundle.get("ishigh");
         isstale = (Boolean) dataBundle.get("isstale");
@@ -36,6 +47,8 @@ public class xDripDataRecieved {
         in = dataBundle.getString("in");
         space_mins = dataBundle.getString("space_mins");
         low_occurs_at = dataBundle.getDouble("low_occurs_at");
+        phone_battery = dataBundle.getString("phone_battery");
+        bitmapstring = dataBundle.getString("SGVGraph");
     }
 
     public Long getDate() {
@@ -50,6 +63,19 @@ public class xDripDataRecieved {
     }
     public void setPlugin_name(String plugin_name) {
         this.plugin_name = plugin_name;
+    }
+    public String getdelta_arrow() {
+        return delta_arrow;
+    }
+    public void setdelta_arrow(String plugin_name) {
+        this.delta_arrow = delta_arrow;
+    }
+
+    public String getPhone_battery() {
+        return phone_battery;
+    }
+    public void setPhone_battery(String phone_battery) {
+        this.phone_battery = phone_battery;
     }
 
     public String getReply_message() { return reply_message;}
@@ -126,4 +152,18 @@ public class xDripDataRecieved {
         this.low_occurs_at = low_occurs_at;
     }
 
+    public Bitmap getBitmap() {
+        return StringToBitMap(bitmapstring);
+    }
+
+    public Bitmap StringToBitMap(String encodedString){
+        try {
+            byte [] encodeByte=Base64.decode(encodedString,Base64.DEFAULT);
+            Bitmap bitmap=BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
+            return bitmap;
+        } catch(Exception e) {
+            e.getMessage();
+            return null;
+        }
+    }
 }
