@@ -26,6 +26,7 @@ import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeEvent;
 import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeRemoteConfirmation;
 import com.klaus3d3.xdripwidgetforamazfit.events.xDripAlarm;
 import com.klaus3d3.xdripwidgetforamazfit.events.xDripCancelConfirmation;
+import com.klaus3d3.xdripwidgetforamazfit.MainService;
 import com.github.marlonlom.utilities.timeago.TimeAgo;
 
 
@@ -107,10 +108,11 @@ public class NightscoutPage extends AbstractPlugin {
     //Much like a fragment, getView returns the content view of the page. You can set up your layout here
     @Override
     public View getView(Context paramContext) {
-        mContext = paramContext;
 
+        Intent intent = new Intent(paramContext, MainService.class);
+        paramContext.startService(intent);
         initIcons(paramContext);
-
+        mContext = paramContext;
         Log.d(Constants.TAG_NIGHTSCOUT_PAGE, "getView()" + paramContext.getPackageName());
 
         mView = LayoutInflater.from(paramContext).inflate(R.layout.nightscoout_page, null);

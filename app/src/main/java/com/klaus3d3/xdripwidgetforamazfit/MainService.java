@@ -101,6 +101,7 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
                 }
                 if (action.equals(Constants.ACTION_XDRIP_ALARM))
                 {   HermesEventBus.getDefault().post(new xDripAlarm(db));
+
                     confirm_sgv_data(db.getString("reply_message"));
 
 
