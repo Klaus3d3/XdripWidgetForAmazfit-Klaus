@@ -8,6 +8,8 @@ import android.graphics.Paint;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.PowerManager;
+
+import android.content.IntentFilter;
 import android.util.Log;
 
 import android.view.LayoutInflater;
@@ -46,6 +48,7 @@ import butterknife.OnClick;
 import clc.sliteplugin.flowboard.AbstractPlugin;
 import clc.sliteplugin.flowboard.ISpringBoardHostStub;
 import xiaofei.library.hermeseventbus.HermesEventBus;
+import android.os.BatteryManager;
 
 /**
  * Created by edoardotassinari on 09/04/18.
@@ -101,6 +104,7 @@ public class NightscoutPage extends AbstractPlugin {
     ImageView SGVGraph;
     @BindView(R2.id.Dateview)
     TextView Dateview;
+    BatteryManager batteryStatus;
 
 
 
@@ -111,10 +115,10 @@ public class NightscoutPage extends AbstractPlugin {
 
         Intent intent = new Intent(paramContext, MainService.class);
         paramContext.startService(intent);
+
         initIcons(paramContext);
         mContext = paramContext;
         Log.d(Constants.TAG_NIGHTSCOUT_PAGE, "getView()" + paramContext.getPackageName());
-
         mView = LayoutInflater.from(paramContext).inflate(R.layout.nightscoout_page, null);
 
         //nightscoutPageViewHolder = new NightscoutPageViewHolder();
@@ -131,7 +135,8 @@ public class NightscoutPage extends AbstractPlugin {
     @OnClick(R2.id.nightscout_sgv_textview)
     public void sgv_click() {
 
-        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + System.lineSeparator()+"Phone Battery :" + lastphone_battery, Toast.LENGTH_LONG).show();
+
+        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + System.lineSeparator()+"Phone Battery: " + lastphone_battery+System.lineSeparator()+"Watch Battery: " , Toast.LENGTH_LONG).show();
     }
     @OnClick(R2.id.snooze_button)
     public void snooze_click() {
@@ -374,7 +379,7 @@ public class NightscoutPage extends AbstractPlugin {
         Toast.makeText(mContext, event.getReply_message(), Toast.LENGTH_LONG).show();
         Snooze_Button.setVisibility(View.INVISIBLE);
 
-        delta.setText(lastDelta);
+        date.setText(TimeAgo.using(Long.valueOf(lastDate)));
         prediction.setText(predictiontext);
 
     }
@@ -384,7 +389,7 @@ public class NightscoutPage extends AbstractPlugin {
         this.vibe = (Vibrator) this.mContext.getSystemService(Context.VIBRATOR_SERVICE);
         vibe.cancel();
         Snooze_Button.setVisibility(View.INVISIBLE);
-        delta.setText(lastDelta);
+        date.setText(TimeAgo.using(Long.valueOf(lastDate)));
         prediction.setText(predictiontext);
 
     }
@@ -401,8 +406,9 @@ public class NightscoutPage extends AbstractPlugin {
         //Toast.makeText(mContext, event.getalarmtext(), Toast.LENGTH_LONG).show();
         Snooze_Button.setVisibility(View.VISIBLE);
 
-        delta.setText(event.getalarmtext());
+        date.setText(event.getalarmtext());
         prediction.setText(event.getuuid());
 
     }
+
 }
