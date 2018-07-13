@@ -1,3 +1,13 @@
+Major Update!!!
+
+from release 0.2.0 on you don't need root access to your watch and therefor you don't have to unlock the bootloader anymore.
+
+It's now normaly installable via adb or AmazFit_Tool.
+
+
+
+
+Only for 0.1.4 and older:
 <<<<<<< HEAD
 I hope this makes it clear for everyone who wants to install the apk.
 
