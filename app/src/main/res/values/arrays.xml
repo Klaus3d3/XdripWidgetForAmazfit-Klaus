@@ -3,4 +3,10 @@
     <string-array name="spring_depend">
         <item>com.klaus3d3.xdripwidgetforamazfit/com.klaus3d3.xdripwidgetforamazfit.springboard.NightscoutPage</item>
     </string-array>
+    <integer-array name="snooze_time_spinner">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
 </resources>

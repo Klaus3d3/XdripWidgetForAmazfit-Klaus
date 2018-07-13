@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true"
+    android:backgroundTint="@color/black_overlay"
+    android:isScrollContainer="true"
+    android:layoutMode="opticalBounds">
+
+    <Button
+        android:id="@+id/snooze_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Snooze"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Alarm_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black_overlay"
+        android:text="Warnung Hoch"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/SGV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black_overlay"
+        android:text="100"
+        android:textColor="@android:color/holo_orange_light"
+        android:textScaleX="1"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

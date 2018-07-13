@@ -7,6 +7,14 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
 
     <application
         android:allowBackup="true"
@@ -14,7 +22,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/AppTheme">
-        <activity android:name="android.support.v7.app.ActionBarActivity" />
+
+
         <receiver
             android:name=".BootReceiver"
             android:enabled="true"
@@ -28,14 +37,28 @@
                 <category android:name="android.intent.category.HOME" />
             </intent-filter>
         </receiver>
-
+        <activity android:name="android.support.v7.app.ActionBarActivity" />
+        <activity
+            android:name=".ui.xDripAlarmActivity"
+            android:allowEmbedded="true"
+            android:exported="true"
+            android:label="xDripAlarm"
+            android:taskAffinity=""
+            android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <service android:name=".MainService" />
         <service android:name="xiaofei.library.hermes.HermesService$HermesService0" />
 
         <meta-data
             android:name="com.huami.watch.launcher.springboard.PASSAGER_TARGET"
             android:resource="@array/spring_depend" />
-
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
 
     </application>
 

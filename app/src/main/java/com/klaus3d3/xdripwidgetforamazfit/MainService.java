@@ -4,12 +4,11 @@ import android.app.Service;
 import android.content.Intent;
 import android.content.Context;
 
-import android.os.PowerManager;
 import android.os.IBinder;
 
 import android.support.annotation.Nullable;
 import android.util.Log;
-
+import android.widget.Toast;
 
 
 import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeRemoteConfirmation;
@@ -23,6 +22,7 @@ import com.huami.watch.transport.TransportDataItem;
 import com.kieronquinn.library.amazfitcommunication.Transporter;
 import com.kieronquinn.library.amazfitcommunication.TransporterClassic;
 import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeEvent;
+import com.klaus3d3.xdripwidgetforamazfit.ui.xDripAlarmActivity;
 
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
@@ -50,6 +50,7 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
 
         HermesEventBus.getDefault().init(this);
         HermesEventBus.getDefault().register(this);
+        context=getApplicationContext();
 
     }
 
@@ -100,23 +101,36 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
 
                 }
                 if (action.equals(Constants.ACTION_XDRIP_ALARM))
-                {   HermesEventBus.getDefault().post(new xDripAlarm(db));
+                {
 
+
+                    Intent intent = new Intent(context, xDripAlarmActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK |
+                            Intent.FLAG_ACTIVITY_NEW_DOCUMENT |
+                            Intent.FLAG_ACTIVITY_CLEAR_TOP |
+                            Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+                            intent.putExtra("Alarmtext",db.getString("alarmtext"));
+                            intent.putExtra("sgv",db.getString("sgv"));
+
+                    context.startActivity(intent);
                     confirm_sgv_data(db.getString("reply_message"));
 
 
                 }
                 if (action.equals(Constants.ACTION_XDRIP_SNOOZE_CONFIRMATION)) HermesEventBus.getDefault().post(new SnoozeRemoteConfirmation(db));
 
-                if (action.equals(Constants.ACTION_XDRIP_CANCEL_CONFIRMATION))
-                {   HermesEventBus.getDefault().post(new xDripCancelConfirmation(db));
+                if (action.equals(Constants.ACTION_XDRIP_CANCEL))
+                {   Intent intent = new Intent(context, xDripAlarmActivity.class);
+
+                    intent.putExtra("Alarmtext",db.getString("alarmtext"));
+                    intent.putExtra("sgv",db.getString("sgv"));
+                    intent.putExtra("kill",1);
+
+                    context.startActivity(intent);
                     confirm_sgv_data(db.getString("reply_message"));
 
                 }
-                if (action.equals(Constants.ACTION_XDRIP_COMMUNICATION_CHECK))
-                {   confirm_sgv_data(db.getString("Yes, i am here"));
 
-                }
             }
         });
 

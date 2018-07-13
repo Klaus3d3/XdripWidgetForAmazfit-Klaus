@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">xdripwidgetforamazfit</string>
+
+    <string name="title_activity_x_drip_alarm">xDripAlarmActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
 </resources>

@@ -7,14 +7,11 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
-import android.os.PowerManager;
 
-import android.content.IntentFilter;
 import android.util.Log;
 
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ImageView;
@@ -23,15 +20,13 @@ import android.widget.ImageView;
 import com.klaus3d3.xdripwidgetforamazfit.Constants;
 import com.klaus3d3.xdripwidgetforamazfit.R;
 import com.klaus3d3.xdripwidgetforamazfit.R2;
-import com.klaus3d3.xdripwidgetforamazfit.events.xDripDataRecieved;
-import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeEvent;
-import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeRemoteConfirmation;
 import com.klaus3d3.xdripwidgetforamazfit.events.xDripAlarm;
-import com.klaus3d3.xdripwidgetforamazfit.events.xDripCancelConfirmation;
+import com.klaus3d3.xdripwidgetforamazfit.events.xDripDataRecieved;
 import com.klaus3d3.xdripwidgetforamazfit.MainService;
 import com.github.marlonlom.utilities.timeago.TimeAgo;
 
 
+import com.klaus3d3.xdripwidgetforamazfit.ui.xDripAlarmActivity;
 import com.mikepenz.iconics.Iconics;
 
 import org.greenrobot.eventbus.Subscribe;
@@ -48,7 +43,6 @@ import butterknife.OnClick;
 import clc.sliteplugin.flowboard.AbstractPlugin;
 import clc.sliteplugin.flowboard.ISpringBoardHostStub;
 import xiaofei.library.hermeseventbus.HermesEventBus;
-import android.os.BatteryManager;
 
 /**
  * Created by edoardotassinari on 09/04/18.
@@ -83,7 +77,7 @@ public class NightscoutPage extends AbstractPlugin {
     private double lastlow_occurs_at;
     private Bitmap lastbitmap;
     private String lastdelta_arrow;
-
+    Context context;
 
 
 
@@ -96,15 +90,13 @@ public class NightscoutPage extends AbstractPlugin {
     TextView delta;
     @BindView(R2.id.prediction_text)
     TextView prediction;
-    @BindView(R2.id.snooze_button)
-    Button Snooze_Button;
-    @BindView(R2.id.time)
+       @BindView(R2.id.time)
     TextView time;
     @BindView(R2.id.SGVGraph)
     ImageView SGVGraph;
     @BindView(R2.id.Dateview)
     TextView Dateview;
-    BatteryManager batteryStatus;
+
 
 
 
@@ -137,14 +129,6 @@ public class NightscoutPage extends AbstractPlugin {
 
 
         Toast.makeText(mContext, "Plugin: "+ last_plugin_name + System.lineSeparator()+"Phone Battery: " + lastphone_battery+System.lineSeparator()+"Watch Battery: " , Toast.LENGTH_LONG).show();
-    }
-    @OnClick(R2.id.snooze_button)
-    public void snooze_click() {
-        this.vibe = (Vibrator) this.mContext.getSystemService(Context.VIBRATOR_SERVICE);
-        HermesEventBus.getDefault().post(new SnoozeEvent());
-        vibe.cancel();
-
-
     }
 
 
@@ -373,41 +357,8 @@ public class NightscoutPage extends AbstractPlugin {
         Iconics.init(context);
     }
     @Subscribe(threadMode = ThreadMode.MAIN)
-    public void SnoozeConfirmation(SnoozeRemoteConfirmation event) {
-        this.vibe = (Vibrator) this.mContext.getSystemService(Context.VIBRATOR_SERVICE);
-        vibe.cancel();
-        Toast.makeText(mContext, event.getReply_message(), Toast.LENGTH_LONG).show();
-        Snooze_Button.setVisibility(View.INVISIBLE);
+    public void Alarming(xDripAlarm xDripAlarmData) {
 
-        date.setText(TimeAgo.using(Long.valueOf(lastDate)));
-        prediction.setText(predictiontext);
-
-    }
-
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    public void Cancel_Alert(xDripCancelConfirmation event) {
-        this.vibe = (Vibrator) this.mContext.getSystemService(Context.VIBRATOR_SERVICE);
-        vibe.cancel();
-        Snooze_Button.setVisibility(View.INVISIBLE);
-        date.setText(TimeAgo.using(Long.valueOf(lastDate)));
-        prediction.setText(predictiontext);
-
-    }
-
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    public void Alarm(xDripAlarm event) {
-        this.vibe = (Vibrator) this.mContext.getSystemService(Context.VIBRATOR_SERVICE);
-
-        if (event.getuuid()!=null){
-
-            long[] pattern = {0, 600, 200};
-            vibe.vibrate(pattern, 0);
-        }
-        //Toast.makeText(mContext, event.getalarmtext(), Toast.LENGTH_LONG).show();
-        Snooze_Button.setVisibility(View.VISIBLE);
-
-        date.setText(event.getalarmtext());
-        prediction.setText(event.getuuid());
 
     }
 
