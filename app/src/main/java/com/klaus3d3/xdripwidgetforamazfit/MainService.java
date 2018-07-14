@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 
 import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeRemoteConfirmation;
+import com.klaus3d3.xdripwidgetforamazfit.events.Snoozed;
 import com.klaus3d3.xdripwidgetforamazfit.events.xDripAlarm;
 import com.klaus3d3.xdripwidgetforamazfit.events.xDripDataRecieved;
 import com.klaus3d3.xdripwidgetforamazfit.events.xDripCancelConfirmation;
@@ -21,7 +22,7 @@ import com.huami.watch.transport.TransportDataItem;
 
 import com.kieronquinn.library.amazfitcommunication.Transporter;
 import com.kieronquinn.library.amazfitcommunication.TransporterClassic;
-import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeEvent;
+
 import com.klaus3d3.xdripwidgetforamazfit.ui.xDripAlarmActivity;
 
 import org.greenrobot.eventbus.Subscribe;
@@ -111,7 +112,7 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
                             Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
                             intent.putExtra("Alarmtext",db.getString("alarmtext"));
                             intent.putExtra("sgv",db.getString("sgv"));
-                            intent.putExtra("kill",0);
+
 
                     context.startActivity(intent);
                     confirm_sgv_data(db.getString("reply_message"));
@@ -148,9 +149,10 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
 
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    public void Snooze(SnoozeEvent event) {
-
-        companionTransporter.send(Constants.ACTION_Amazfit_Snooze);
+    public void Snooze(Snoozed event) {
+        DataBundle db = new DataBundle();
+        db.putString("snoozetime",event.getsnoozetime());
+        companionTransporter.send(Constants.ACTION_Amazfit_Snooze,db);
 
     }
 

@@ -356,10 +356,6 @@ public class NightscoutPage extends AbstractPlugin {
 
         Iconics.init(context);
     }
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    public void Alarming(xDripAlarm xDripAlarmData) {
 
-
-    }
 
 }
