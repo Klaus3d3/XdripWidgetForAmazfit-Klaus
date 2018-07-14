@@ -111,6 +111,7 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
                             Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
                             intent.putExtra("Alarmtext",db.getString("alarmtext"));
                             intent.putExtra("sgv",db.getString("sgv"));
+                            intent.putExtra("kill",0);
 
                     context.startActivity(intent);
                     confirm_sgv_data(db.getString("reply_message"));
@@ -120,13 +121,8 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
                 if (action.equals(Constants.ACTION_XDRIP_SNOOZE_CONFIRMATION)) HermesEventBus.getDefault().post(new SnoozeRemoteConfirmation(db));
 
                 if (action.equals(Constants.ACTION_XDRIP_CANCEL))
-                {   Intent intent = new Intent(context, xDripAlarmActivity.class);
-
-                    intent.putExtra("Alarmtext",db.getString("alarmtext"));
-                    intent.putExtra("sgv",db.getString("sgv"));
-                    intent.putExtra("kill",1);
-
-                    context.startActivity(intent);
+                {   Intent intent1 = new Intent("close_alarm_dialog");
+                    sendBroadcast(intent1);
                     confirm_sgv_data(db.getString("reply_message"));
 
                 }
