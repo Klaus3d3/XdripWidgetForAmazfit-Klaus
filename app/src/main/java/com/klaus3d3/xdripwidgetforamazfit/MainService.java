@@ -112,6 +112,7 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
                             Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
                             intent.putExtra("Alarmtext",db.getString("alarmtext"));
                             intent.putExtra("sgv",db.getString("sgv"));
+                            intent.putExtra("default_snooze",db.getInt("default_snooze"));
 
 
                     context.startActivity(intent);
@@ -151,7 +152,7 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void Snooze(Snoozed event) {
         DataBundle db = new DataBundle();
-        db.putString("snoozetime",event.getsnoozetime());
+        db.putInt("snoozetime",event.getsnoozetime());
         companionTransporter.send(Constants.ACTION_Amazfit_Snooze,db);
 
     }

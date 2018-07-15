@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal|center_vertical"
@@ -12,27 +14,6 @@
         android:gravity="center_horizontal|center_vertical"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/SGV"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:backgroundTint="@color/black_overlay"
-            android:text="100"
-            android:textColor="@android:color/holo_orange_light"
-            android:textSize="25sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/Alarm_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/black_overlay"
-            android:text="Alarmtext"
-            android:textColor="@android:color/holo_orange_light"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -41,6 +22,7 @@
             android:orientation="horizontal">
 
             <ScrollView
+                style="@android:style/Widget.DeviceDefault.Light.FastScroll"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -49,107 +31,250 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <Button
-                        android:id="@+id/tenmin"
-                        android:layout_width="match_parent"
+                    <TextView
+                        android:id="@+id/SGV"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:backgroundTint="@color/black_overlay"
-                        android:text="10min"
-                        android:textColor="@color/white"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <Button
-                        android:id="@+id/twenmin"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="@color/black_overlay"
-                        android:text="20min"
-                        android:textColor="@color/white"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <Button
-                        android:id="@+id/thirtymin"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="@color/black_overlay"
-                        android:text="30min"
-                        android:textColor="@color/white"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <Button
-                        android:id="@+id/fourtyfivemin"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="@color/black_overlay"
-                        android:text="45min"
-                        android:textColor="@color/white"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <Button
-                        android:id="@+id/onehour"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="@color/black_overlay"
-                        android:text="60min"
-                        android:textColor="@color/white"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <Button
-                        android:id="@+id/twohour"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="@color/black_overlay"
-                        android:text="2 hours"
-                        android:textColor="@color/white"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <Button
-                        android:id="@+id/threehour"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="@color/black_overlay"
-                        android:text="3 hours"
-                        android:textColor="@color/white"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <Button
-                        android:id="@+id/fourhour"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
                         android:layout_weight="1"
                         android:backgroundTint="@color/black_overlay"
-                        android:text="4 hours"
-                        android:textColor="@color/white"
-                        android:textSize="24sp"
+                        android:text="100"
+                        android:textColor="@android:color/holo_orange_light"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
 
-                    <Button
-                        android:id="@+id/sixhour"
-                        android:layout_width="match_parent"
+                    <TextView
+                        android:id="@+id/Alarm_text"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:backgroundTint="@color/black_overlay"
-                        android:text="6 hours"
-                        android:textColor="@color/white"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <Button
-                        android:id="@+id/eighthour"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
                         android:layout_weight="1"
                         android:backgroundTint="@color/black_overlay"
-                        android:text="8 hours"
-                        android:textColor="@color/white"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
+                        android:text="Alarmtext"
+                        android:textColor="@android:color/holo_orange_light"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        app:autoSizeMaxTextSize="25dp"
+                        app:autoSizeMinTextSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/tenmin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:backgroundTint="@color/black_overlay"
+                            android:drawablePadding="-40dp"
+                            android:drawableStart="@mipmap/ic_launcher_alarm"
+                            android:paddingLeft="30dp"
+                            android:text="10min"
+                            android:textColor="@color/white"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/twenmin"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/black_overlay"
+                            android:drawableLeft="@mipmap/ic_launcher_alarm"
+                            android:drawablePadding="-40dp"
+                            android:paddingLeft="30dp"
+                            android:text="20min"
+                            android:textColor="@color/white"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/thirtymin"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/black_overlay"
+                            android:drawableLeft="@mipmap/ic_launcher_alarm"
+                            android:drawablePadding="-40dp"
+                            android:paddingLeft="30dp"
+                            android:text="30min"
+                            android:textColor="@color/white"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/fourtyfivemin"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/black_overlay"
+                            android:drawableLeft="@mipmap/ic_launcher_alarm"
+                            android:drawablePadding="-40dp"
+                            android:paddingLeft="30dp"
+                            android:text="45min"
+                            android:textColor="@color/white"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/onehour"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/black_overlay"
+                            android:drawableLeft="@mipmap/ic_launcher_alarm"
+                            android:drawablePadding="-40dp"
+                            android:paddingLeft="30dp"
+                            android:text="60min"
+                            android:textColor="@color/white"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/twohour"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/black_overlay"
+                            android:drawableLeft="@mipmap/ic_launcher_alarm"
+                            android:drawablePadding="-20dp"
+                            android:paddingLeft="30dp"
+                            android:text="2 hours"
+                            android:textColor="@color/white"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/threehour"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/black_overlay"
+                            android:drawableLeft="@mipmap/ic_launcher_alarm"
+                            android:drawablePadding="-20dp"
+                            android:paddingLeft="30dp"
+                            android:text="3 hours"
+                            android:textColor="@color/white"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/fourhour"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/black_overlay"
+                            android:drawableLeft="@mipmap/ic_launcher_alarm"
+                            android:drawablePadding="-20dp"
+                            android:paddingLeft="30dp"
+                            android:text="4 hours"
+                            android:textColor="@color/white"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/sixhour"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/black_overlay"
+                            android:drawableLeft="@mipmap/ic_launcher_alarm"
+                            android:drawablePadding="-20dp"
+                            android:paddingLeft="30dp"
+                            android:text="6 hours"
+                            android:textColor="@color/white"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/eighthour"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/black_overlay"
+                            android:drawableLeft="@mipmap/ic_launcher_alarm"
+                            android:drawablePadding="-20dp"
+                            android:paddingLeft="30dp"
+                            android:text="8 hours"
+                            android:textColor="@color/white"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:text=" " />
 
                 </RadioGroup>
             </ScrollView>

@@ -4,20 +4,20 @@ package com.klaus3d3.xdripwidgetforamazfit.events;
 import com.huami.watch.transport.DataBundle;
 
 public class Snoozed {
-    private String snoozetime;
+    private int snoozetime;
 
 
 
 
     public Snoozed(DataBundle dataBundle) {
-        snoozetime = dataBundle.getString("snoozetime");
+        snoozetime = dataBundle.getInt("snoozetime");
 
     }
 
-    public String getsnoozetime() {
+    public int getsnoozetime() {
         return snoozetime;
     }
-    public void setsnoozetime(String snoozetime) {
+    public void setsnoozetime(int snoozetime) {
         this.snoozetime = snoozetime;
     }
 

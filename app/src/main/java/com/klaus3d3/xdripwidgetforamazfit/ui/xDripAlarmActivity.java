@@ -14,6 +14,8 @@ import android.content.Context;
 import com.huami.watch.transport.DataBundle;
 
 
+
+
 import com.klaus3d3.xdripwidgetforamazfit.R2;
 import com.klaus3d3.xdripwidgetforamazfit.events.Snoozed;
 
@@ -30,6 +32,8 @@ public class xDripAlarmActivity extends Activity {
     private String Alarmtext_view;
     private String SGV_view;
     private boolean eventBusConnected;
+    private int snooze_time;
+    private int default_snooze;
 
     @BindView(R2.id.Alarm_text)
     TextView Alarmtext;
@@ -59,15 +63,14 @@ public class xDripAlarmActivity extends Activity {
         super.onCreate(savedInstanceState);
         vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
         registerReceiver(mMessageReceiver, new IntentFilter("close_alarm_dialog"));
-
-
-            getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED |
+                   getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED |
                     WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD |
                     WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON |
                     WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON |
                     WindowManager.LayoutParams.FLAG_ALLOW_LOCK_WHILE_SCREEN_ON);
         Alarmtext_view =getIntent().getStringExtra("Alarmtext");
         SGV_view= getIntent().getStringExtra("sgv");
+        default_snooze=getIntent().getIntExtra("default_snooze",30);
             setContentView(R2.layout.xdripalarmactivity);
             ButterKnife.bind(this);
         try {
@@ -93,6 +96,7 @@ public class xDripAlarmActivity extends Activity {
     }
 
 
+
     private void vibrate(){if(vibrator != null) {
         vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
         long[] pattern = {0, 600, 200};
@@ -103,33 +107,33 @@ public class xDripAlarmActivity extends Activity {
     public void finish() {
         if(vibrator != null) {
             vibrator.cancel();                };
-       // HermesEventBus.getDefault().post(new SnoozeEvent());
+       if (snooze_time==0){snooze_time=default_snooze;Snooze(snooze_time);}
         super.finish();
     }
     @OnClick(R2.id.tenmin)
-    public void clicktenmin() {Snooze("10");}
+    public void clicktenmin() {snooze_time=10;Snooze(snooze_time);}
     @OnClick(R2.id.twenmin)
-    public void clicktwenmin() {Snooze("20");}
+    public void clicktwenmin() {snooze_time=20;Snooze(snooze_time);}
     @OnClick(R2.id.thirtymin)
-    public void clickthirtynmin() {Snooze("30");}
+    public void clickthirtynmin() {snooze_time=30;Snooze(snooze_time);}
     @OnClick(R2.id.fourtyfivemin)
-    public void clickfourtyfivemin() {Snooze("45");}
+    public void clickfourtyfivemin() {snooze_time=45;Snooze(snooze_time);}
     @OnClick(R2.id.onehour)
-    public void clickonehour() {Snooze("60");}
+    public void clickonehour() {snooze_time=60;Snooze(snooze_time);}
     @OnClick(R2.id.twohour)
-    public void clicktwohour() {Snooze("120");}
+    public void clicktwohour() {snooze_time=120;Snooze(snooze_time);}
     @OnClick(R2.id.threehour)
-    public void clickthreehour() {Snooze("180");}
+    public void clickthreehour() {snooze_time=180;Snooze(snooze_time);}
     @OnClick(R2.id.fourhour)
-    public void clickfourhour() {Snooze("240");}
+    public void clickfourhour() {snooze_time=240;Snooze(snooze_time);}
     @OnClick(R2.id.sixhour)
-    public void clicksixhour() {Snooze("360");}
+    public void clicksixhour() {snooze_time=360;Snooze(snooze_time);}
     @OnClick(R2.id.eighthour)
-    public void clickeigthhour() {Snooze("480");}
+    public void clickeigthhour() {snooze_time=480;Snooze(snooze_time);}
 
-    private void Snooze(String Snooze_Minutes){
+    private void Snooze(int Snooze_Minutes){
         DataBundle db = new DataBundle();
-        db.putString("snoozetime",Snooze_Minutes);
+        db.putInt("snoozetime",Snooze_Minutes);
         Snoozed event = new Snoozed(db);
         HermesEventBus.getDefault().post(event);
         finish();

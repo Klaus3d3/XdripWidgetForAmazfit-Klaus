@@ -20,7 +20,7 @@ import android.widget.ImageView;
 import com.klaus3d3.xdripwidgetforamazfit.Constants;
 import com.klaus3d3.xdripwidgetforamazfit.R;
 import com.klaus3d3.xdripwidgetforamazfit.R2;
-import com.klaus3d3.xdripwidgetforamazfit.events.xDripAlarm;
+import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeRemoteConfirmation;
 import com.klaus3d3.xdripwidgetforamazfit.events.xDripDataRecieved;
 import com.klaus3d3.xdripwidgetforamazfit.MainService;
 import com.github.marlonlom.utilities.timeago.TimeAgo;
@@ -357,5 +357,8 @@ public class NightscoutPage extends AbstractPlugin {
         Iconics.init(context);
     }
 
-
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void SnoozeConfirmation(SnoozeRemoteConfirmation event) {
+        Toast.makeText(mContext, event.getReply_message(), Toast.LENGTH_LONG).show();
+    }
 }
