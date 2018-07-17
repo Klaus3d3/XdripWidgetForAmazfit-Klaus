@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="@android:color/black"
+    android:backgroundTint="@color/black_overlay">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/tenmin"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="19dp"
+                android:layout_weight="0"
+                android:background="@drawable/rounded_corners_button"
+                android:backgroundTint="#05364f"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="10 MINUTES"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/twenmin"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="19dp"
+                android:layout_weight="0"
+                android:background="@drawable/rounded_corners_button"
+                android:backgroundTint="#05364f"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="20 Minutes"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/thirtymin"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="19dp"
+                android:layout_weight="0"
+                android:background="@drawable/rounded_corners_button"
+                android:backgroundTint="#05364f"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="30 Minutes"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/fourtyfivemin"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="19dp"
+                android:layout_weight="0"
+                android:background="@drawable/rounded_corners_button"
+                android:backgroundTint="#05364f"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="45 Minutes"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/onehour"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="19dp"
+                android:layout_weight="0"
+                android:background="@drawable/rounded_corners_button"
+                android:backgroundTint="#05364f"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="1 HOUR"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/twohour"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="19dp"
+                android:layout_weight="0"
+                android:background="@drawable/rounded_corners_button"
+                android:backgroundTint="#05364f"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="2 HOURS"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/threehour"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="19dp"
+                android:layout_weight="0"
+                android:background="@drawable/rounded_corners_button"
+                android:backgroundTint="#05364f"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="3 HOURS"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/fourhour"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="19dp"
+                android:layout_weight="0"
+                android:background="@drawable/rounded_corners_button"
+                android:backgroundTint="#05364f"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="4 HOURS"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/sixhour"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="19dp"
+                android:layout_weight="0"
+                android:background="@drawable/rounded_corners_button"
+                android:backgroundTint="#05364f"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="6 HOURS"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/eighthour"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="19dp"
+                android:layout_weight="0"
+                android:background="@drawable/rounded_corners_button"
+                android:backgroundTint="#05364f"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="8 HOURS"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

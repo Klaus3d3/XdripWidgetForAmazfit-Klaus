@@ -4,7 +4,6 @@ import android.app.Activity;
 
 import android.os.Bundle;
 import android.os.Vibrator;
-import android.util.Log;
 import android.view.WindowManager;
 import android.widget.TextView;
 import android.content.BroadcastReceiver;
@@ -13,7 +12,9 @@ import android.content.Intent;
 import android.content.Context;
 import com.huami.watch.transport.DataBundle;
 
-
+import android.widget.Button;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 
 
 import com.klaus3d3.xdripwidgetforamazfit.R2;
@@ -70,6 +71,7 @@ public class xDripAlarmActivity extends Activity {
                     WindowManager.LayoutParams.FLAG_ALLOW_LOCK_WHILE_SCREEN_ON);
         Alarmtext_view =getIntent().getStringExtra("Alarmtext");
         SGV_view= getIntent().getStringExtra("sgv");
+
         default_snooze=getIntent().getIntExtra("default_snooze",30);
             setContentView(R2.layout.xdripalarmactivity);
             ButterKnife.bind(this);
@@ -107,35 +109,37 @@ public class xDripAlarmActivity extends Activity {
     public void finish() {
         if(vibrator != null) {
             vibrator.cancel();                };
-       if (snooze_time==0){snooze_time=default_snooze;Snooze(snooze_time);}
+       if (snooze_time==0){snooze_time=default_snooze;Snooze(snooze_time,true);}
+       else {snooze_time=default_snooze;Snooze(snooze_time,false);}
         super.finish();
     }
-    @OnClick(R2.id.tenmin)
-    public void clicktenmin() {snooze_time=10;Snooze(snooze_time);}
-    @OnClick(R2.id.twenmin)
-    public void clicktwenmin() {snooze_time=20;Snooze(snooze_time);}
-    @OnClick(R2.id.thirtymin)
-    public void clickthirtynmin() {snooze_time=30;Snooze(snooze_time);}
-    @OnClick(R2.id.fourtyfivemin)
-    public void clickfourtyfivemin() {snooze_time=45;Snooze(snooze_time);}
-    @OnClick(R2.id.onehour)
-    public void clickonehour() {snooze_time=60;Snooze(snooze_time);}
-    @OnClick(R2.id.twohour)
-    public void clicktwohour() {snooze_time=120;Snooze(snooze_time);}
-    @OnClick(R2.id.threehour)
-    public void clickthreehour() {snooze_time=180;Snooze(snooze_time);}
-    @OnClick(R2.id.fourhour)
-    public void clickfourhour() {snooze_time=240;Snooze(snooze_time);}
-    @OnClick(R2.id.sixhour)
-    public void clicksixhour() {snooze_time=360;Snooze(snooze_time);}
-    @OnClick(R2.id.eighthour)
-    public void clickeigthhour() {snooze_time=480;Snooze(snooze_time);}
 
-    private void Snooze(int Snooze_Minutes){
+    @OnClick(R2.id.Snooze_Button)
+    public void clicksnooze() {
+        if(vibrator != null) vibrator.cancel();
+        Button button =findViewById(R2.id.Snooze_Button);
+        didTapButton(button);
+        Intent intent = new Intent(this, xDripSnoozePickerActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK |
+                Intent.FLAG_ACTIVITY_NEW_DOCUMENT |
+                Intent.FLAG_ACTIVITY_CLEAR_TOP |
+                Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+
+        intent.putExtra("default_snooze",default_snooze);
+        this.startActivity(intent);
+    finish();
+    }
+
+
+    private void Snooze(int Snooze_Minutes,Boolean withsnooze){
         DataBundle db = new DataBundle();
         db.putInt("snoozetime",Snooze_Minutes);
         Snoozed event = new Snoozed(db);
-        HermesEventBus.getDefault().post(event);
+        if (withsnooze)HermesEventBus.getDefault().post(event);
         finish();
     }
-}
+
+    public void didTapButton(Button button) {
+        final Animation myAnim = AnimationUtils.loadAnimation(this, R2.anim.bounce);
+        button.startAnimation(myAnim);}
+    }
