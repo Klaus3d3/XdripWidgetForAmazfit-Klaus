@@ -1,8 +1,11 @@
 Major Update!!!
 
 from release 0.2.0 on you don't need root access to your watch and therefor you don't have to unlock the bootloader anymore.
-
 It's now normaly installable via adb or AmazFit_Tool.
+
+
+from version 0.1.4 you need my fork of xdrip to get it work agein due to major changes.
+
 
 
 
