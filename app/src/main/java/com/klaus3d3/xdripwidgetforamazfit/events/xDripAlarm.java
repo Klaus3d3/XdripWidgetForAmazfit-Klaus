@@ -5,10 +5,12 @@ public class xDripAlarm {
     private String reply_message;
     private String alarmtext;
     private String uuid;
+    private String Alerttype;
     public xDripAlarm(DataBundle databundle){
         alarmtext=databundle.getString("alarmtext");
         reply_message = databundle.getString("reply_message");
         uuid=databundle.getString("uuid");
+        Alerttype=databundle.getString("Alerttype");
     }
 
     public String getReply_message() { return reply_message;}
@@ -19,4 +21,7 @@ public class xDripAlarm {
 
     public String getuuid() { return uuid;}
     public void setuuid(String uuid) {this.uuid = uuid;  }
+
+    public String getAlerttype() { return Alerttype;}
+    public void Alerttype(String Alerttype) {this.Alerttype = Alerttype;  }
 }

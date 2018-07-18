@@ -113,7 +113,7 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
                             intent.putExtra("Alarmtext",db.getString("alarmtext"));
                             intent.putExtra("sgv",db.getString("sgv"));
                             intent.putExtra("default_snooze",db.getInt("default_snooze"));
-
+                            intent.putExtra("Alerttype",db.getString("Alerttype"));
 
                     context.startActivity(intent);
                     confirm_sgv_data(db.getString("reply_message"));

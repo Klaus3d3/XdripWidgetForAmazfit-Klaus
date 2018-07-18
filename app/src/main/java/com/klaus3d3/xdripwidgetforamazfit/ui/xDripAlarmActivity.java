@@ -4,6 +4,7 @@ import android.app.Activity;
 
 import android.os.Bundle;
 import android.os.Vibrator;
+import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 import android.content.BroadcastReceiver;
@@ -17,6 +18,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
 
+import com.klaus3d3.xdripwidgetforamazfit.Constants;
 import com.klaus3d3.xdripwidgetforamazfit.R2;
 import com.klaus3d3.xdripwidgetforamazfit.events.Snoozed;
 
@@ -35,6 +37,8 @@ public class xDripAlarmActivity extends Activity {
     private boolean eventBusConnected;
     private int snooze_time;
     private int default_snooze;
+    private boolean snooze;
+    private String Alerttype;
 
     @BindView(R2.id.Alarm_text)
     TextView Alarmtext;
@@ -71,7 +75,8 @@ public class xDripAlarmActivity extends Activity {
                     WindowManager.LayoutParams.FLAG_ALLOW_LOCK_WHILE_SCREEN_ON);
         Alarmtext_view =getIntent().getStringExtra("Alarmtext");
         SGV_view= getIntent().getStringExtra("sgv");
-
+        Alerttype=getIntent().getStringExtra("Alerttype");
+        if (Alerttype.equals(Constants.ACTION_XDRIP_OTHERALERT)) findViewById(R2.id.Snooze_Button).setVisibility(View.INVISIBLE);
         default_snooze=getIntent().getIntExtra("default_snooze",30);
             setContentView(R2.layout.xdripalarmactivity);
             ButterKnife.bind(this);
@@ -90,9 +95,8 @@ public class xDripAlarmActivity extends Activity {
     public void onStart() {
         super.onStart();
 
-        Alarmtext.setText(Alarmtext_view);
-        sgv.setText(SGV_view);
 
+        snooze=false;
         vibrate();
 
     }
@@ -101,7 +105,7 @@ public class xDripAlarmActivity extends Activity {
 
     private void vibrate(){if(vibrator != null) {
         vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
-        long[] pattern = {0, 600, 200};
+        long[] pattern = {0, 200, 100,200,100,200,100,200,600};
         vibrator.vibrate(pattern, 0);               };
     };
 
@@ -109,16 +113,18 @@ public class xDripAlarmActivity extends Activity {
     public void finish() {
         if(vibrator != null) {
             vibrator.cancel();                };
-       if (snooze_time==0){snooze_time=default_snooze;Snooze(snooze_time,true);}
-       else {snooze_time=default_snooze;Snooze(snooze_time,false);}
+       if (!snooze){snooze_time=default_snooze;Snooze(snooze_time);}
+
         super.finish();
     }
 
     @OnClick(R2.id.Snooze_Button)
     public void clicksnooze() {
-        if(vibrator != null) vibrator.cancel();
         Button button =findViewById(R2.id.Snooze_Button);
         didTapButton(button);
+        try{wait(300);}catch (Exception e){};
+
+        if(vibrator != null) vibrator.cancel();
         Intent intent = new Intent(this, xDripSnoozePickerActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK |
                 Intent.FLAG_ACTIVITY_NEW_DOCUMENT |
@@ -127,16 +133,17 @@ public class xDripAlarmActivity extends Activity {
 
         intent.putExtra("default_snooze",default_snooze);
         this.startActivity(intent);
+        snooze=true;
     finish();
     }
 
 
-    private void Snooze(int Snooze_Minutes,Boolean withsnooze){
+    private void Snooze(int Snooze_Minutes){
         DataBundle db = new DataBundle();
         db.putInt("snoozetime",Snooze_Minutes);
         Snoozed event = new Snoozed(db);
-        if (withsnooze)HermesEventBus.getDefault().post(event);
-        finish();
+        HermesEventBus.getDefault().post(event);
+
     }
 
     public void didTapButton(Button button) {
