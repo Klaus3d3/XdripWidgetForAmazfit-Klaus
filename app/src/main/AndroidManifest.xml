@@ -51,6 +51,18 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ui.xDripOtheralertActivity"
+            android:allowEmbedded="true"
+            android:exported="true"
+            android:label="xDripAlarm"
+            android:taskAffinity=""
+            android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.INFO" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ui.xDripSnoozePickerActivity"
             android:allowEmbedded="true"
             android:exported="true"

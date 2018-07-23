@@ -8,14 +8,11 @@ import android.os.IBinder;
 
 import android.support.annotation.Nullable;
 import android.util.Log;
-import android.widget.Toast;
 
 
 import com.klaus3d3.xdripwidgetforamazfit.events.SnoozeRemoteConfirmation;
 import com.klaus3d3.xdripwidgetforamazfit.events.Snoozed;
-import com.klaus3d3.xdripwidgetforamazfit.events.xDripAlarm;
 import com.klaus3d3.xdripwidgetforamazfit.events.xDripDataRecieved;
-import com.klaus3d3.xdripwidgetforamazfit.events.xDripCancelConfirmation;
 
 import com.huami.watch.transport.DataBundle;
 import com.huami.watch.transport.TransportDataItem;
@@ -24,7 +21,7 @@ import com.kieronquinn.library.amazfitcommunication.Transporter;
 import com.kieronquinn.library.amazfitcommunication.TransporterClassic;
 
 import com.klaus3d3.xdripwidgetforamazfit.ui.xDripAlarmActivity;
-
+import com.klaus3d3.xdripwidgetforamazfit.ui.xDripOtheralertActivity;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
@@ -113,7 +110,19 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
                             intent.putExtra("Alarmtext",db.getString("alarmtext"));
                             intent.putExtra("sgv",db.getString("sgv"));
                             intent.putExtra("default_snooze",db.getInt("default_snooze"));
-                            intent.putExtra("Alerttype",db.getString("Alerttype"));
+
+                    context.startActivity(intent);
+                    confirm_sgv_data(db.getString("reply_message"));
+                }
+                if (action.equals(Constants.ACTION_XDRIP_OTHERALERT))
+                {
+                    Intent intent = new Intent(context, xDripOtheralertActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK |
+                            Intent.FLAG_ACTIVITY_NEW_DOCUMENT |
+                            Intent.FLAG_ACTIVITY_CLEAR_TOP |
+                            Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+                    intent.putExtra("Alarmtext",db.getString("alarmtext"));
+                    intent.putExtra("sgv",db.getString("sgv"));
 
                     context.startActivity(intent);
                     confirm_sgv_data(db.getString("reply_message"));
