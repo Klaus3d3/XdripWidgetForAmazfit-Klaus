@@ -6,6 +6,7 @@ import android.content.Context;
 
 import android.os.IBinder;
 
+import android.provider.Settings;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
@@ -96,6 +97,7 @@ public class MainService extends Service { //} implements Transporter.ChannelLis
                 if (action.equals(Constants.ACTION_XDRIP_SYNC))
                 {   HermesEventBus.getDefault().post(new xDripDataRecieved(db));
                     confirm_sgv_data(db.getString("reply_message"));
+                    Settings.System.putString(getApplicationContext().getContentResolver(), "sgv",db.getString("sgv"));
 
                 }
                 if (action.equals(Constants.ACTION_XDRIP_ALARM))

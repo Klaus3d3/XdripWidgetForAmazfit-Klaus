@@ -1,0 +1,7 @@
+#Tue Jul 24 17:22:00 CEST 2018
+base.0=E\:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=E\:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0

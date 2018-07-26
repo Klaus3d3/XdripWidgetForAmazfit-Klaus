@@ -25,6 +25,7 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
+
     implementation 'com.mikepenz:iconics-core:3.0.3@aar'
     implementation 'com.mikepenz:iconics-views:3.0.3@aar'
     implementation 'com.mikepenz:google-material-typeface:3.0.1.2.original@aar'
@@ -35,8 +36,7 @@ dependencies {
     implementation 'com.android.support:support-v4:26.1.0'
     implementation 'com.android.support:design:26.1.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
-    //implementation files('libs/Launcher.jar')
     implementation files('libs/SpringboardPluginLib.jar')
     implementation files('libs/AmazfitCommunication.jar')
-    //implementation files('libs/Transport.jar')
+
 }

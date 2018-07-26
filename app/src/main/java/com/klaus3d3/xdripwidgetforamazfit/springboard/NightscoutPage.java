@@ -8,6 +8,7 @@ import android.graphics.Paint;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 
+import android.provider.Settings;
 import android.util.Log;
 
 import android.view.LayoutInflater;
@@ -128,7 +129,7 @@ public class NightscoutPage extends AbstractPlugin {
     public void sgv_click() {
 
 
-        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + System.lineSeparator()+"Phone Battery: " + lastphone_battery+System.lineSeparator()+"Watch Battery: " , Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "Plugin: "+ last_plugin_name + System.lineSeparator()+"Phone Battery: " + lastphone_battery+System.lineSeparator()+"Watch Battery: " + System.lineSeparator() + Settings.System.getString(mContext.getContentResolver(), "sgv"), Toast.LENGTH_LONG).show();
     }
 
 

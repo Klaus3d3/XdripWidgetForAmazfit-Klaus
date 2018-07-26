@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Greatfit Demo Watchface</string>
+    <string name="watch_face">Greatfit Demo</string>
+    <string name="author">GreatApo</string>
+</resources>

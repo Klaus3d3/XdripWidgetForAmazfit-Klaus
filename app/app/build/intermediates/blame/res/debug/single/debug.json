@@ -1,0 +1,1142 @@
+[
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ab_share_pack_holo_light.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-xxhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ab_share_pack_holo_light.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_flashing_heart.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\flashing_heart.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_support_simple_spinner_dropdown_item.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_clock_skin_weather_windy.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\clock_skin_weather_windy.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_light.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_icon.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-xhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-xhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_battery40.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\battery40.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ab_share_pack_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ab_share_pack_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_battery30.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\battery30.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_over_circles_layout.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\over_circles_layout.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_round.xml.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\round.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\xml_custom_watch_face.xml.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\xml\\custom_watch_face.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_settings_bg.xml.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\settings_bg.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_color1.xml.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\color1.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_expanded_menu_layout.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_background.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\background.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-xxxhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_light.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-xxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_top.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_top.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\xml_watch_face.xml.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\xml\\watch_face.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_view_list_nav_layout.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-mdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_battery20.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\battery20.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_battery80.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\battery80.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_color2.xml.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\color2.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-xxxhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_round_bg.xml.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\round_bg.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_color3.xml.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\color3.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_clock_skin_weather_overcast.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\clock_skin_weather_overcast.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_include.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ab_share_pack_holo_light.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_search_url_text.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_clock_skin_weather_rainstorm.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\clock_skin_weather_rainstorm.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_clock_skin_weather_t_storm.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\clock_skin_weather_t_storm.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_clock_skin_weather_cloudy.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\clock_skin_weather_cloudy.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-xxxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_clock_skin_weather_showers.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\clock_skin_weather_showers.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_battery60.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\battery60.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_textfield_search_material.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_clock_skin_weather_fog.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\clock_skin_weather_fog.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_color6.xml.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\color6.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_preview.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\preview.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-xxxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_edit_text_material.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_clock_skin_weather_rain.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\clock_skin_weather_rain.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_color4.xml.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\color4.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_battery10.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\battery10.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_clock_skin_weather_unknow.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\clock_skin_weather_unknow.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_battery100.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\battery100.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_battery.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\battery.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_simple_dropdown_hint.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ab_share_pack_holo_light.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-mdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-xhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-xxhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_battery50.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\battery50.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11_abc_screen_content_include.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout-v11\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ab_share_pack_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_light.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_lang.xml.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\lang.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-xxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_clock_skin_weather_rainsnow.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\clock_skin_weather_rainsnow.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_switch_thumb_material.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings.xml.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-xhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_light.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_clock_skin_weather_snow.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\clock_skin_weather_snow.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_radio_material.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_bottom.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_battery90.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\battery90.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_battery0.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\battery0.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ab_share_pack_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-hdpi\\abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_battery70.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\battery70.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_title_item.xml.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_color5.xml.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\color5.xml"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-ldrtl-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_clock_skin_weather_sunny.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\drawable-nodpi\\clock_skin_weather_sunny.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Xdrip+\\Amazfit-Greatfit-Watchface2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Klaus Dieter\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4f31e651e6340645b141b123682bbe5d\\res\\drawable-xxxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    }
+]

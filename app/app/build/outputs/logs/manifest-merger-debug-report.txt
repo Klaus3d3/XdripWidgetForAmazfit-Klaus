@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\Klaus Dieter\.gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\4f31e651e6340645b141b123682bbe5d\AndroidManifest.xml:14:4-17:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Klaus Dieter\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\a13480af05970226f8ad4c1b5ac78450\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:1:1-34:12
+	package
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:2:5-45
+		INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#com.google.android.permission.PROVIDE_BACKGROUND
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:5:5-88
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:5:22-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:6:22-65
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:7:5-73
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:7:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:10:22-76
+application
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:12:5-32:19
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\Klaus Dieter\.gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\4f31e651e6340645b141b123682bbe5d\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\Klaus Dieter\.gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\4f31e651e6340645b141b123682bbe5d\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Klaus Dieter\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\a13480af05970226f8ad4c1b5ac78450\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Klaus Dieter\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\a13480af05970226f8ad4c1b5ac78450\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:12:53-85
+	android:icon
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:12:18-52
+	android:theme
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:12:87-137
+activity#com.huami.watch.watchface.custom.ui.WatchFaceSettingsActivity
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:14:9-213
+	android:launchMode
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:14:43-74
+	android:exported
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:14:19-42
+	android:theme
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:14:152-211
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:14:75-151
+activity#com.huami.watch.watchface.custom.ui.WatchFaceCustomActivity
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:15:9-127
+	android:launchMode
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:15:19-50
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:15:51-125
+activity#com.dinodevs.greatfitwatchface.settings.Settings
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:16:9-200
+	android:launchMode
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:16:43-74
+	android:exported
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:16:19-42
+	android:theme
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:16:139-198
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:16:75-138
+service#com.dinodevs.greatfitwatchface.GreatFitSplt
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:17:9-78
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:17:18-76
+service#com.dinodevs.greatfitwatchface.GreatFit
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:18:9-27:19
+	android:label
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:18:73-107
+	android:permission
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:18:108-162
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:18:18-72
+meta-data#android.service.wallpaper
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:19:13-109
+	android:resource
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:19:65-106
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:19:24-64
+meta-data#com.google.android.wearable.watchface.preview
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:20:13-124
+	android:resource
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:20:85-121
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:20:24-84
+meta-data#com.google.android.wearable.watchface.preview_circular
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:21:13-133
+	android:resource
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:21:94-130
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:21:24-93
+meta-data#com.huami.watch.watchface.hasslpt
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:22:13-97
+	android:value
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:22:73-94
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:22:24-72
+intent-filter#action:name:android.service.wallpaper.WallpaperService+category:name:com.google.android.wearable.watchface.category.WATCH_FACE
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:23:13-26:29
+action#android.service.wallpaper.WallpaperService
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:24:17-85
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:24:25-82
+category#com.google.android.wearable.watchface.category.WATCH_FACE
+ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:25:17-102
+	android:name
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml:25:27-99
+uses-sdk
+INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\Klaus Dieter\.gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\4f31e651e6340645b141b123682bbe5d\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\Klaus Dieter\.gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\4f31e651e6340645b141b123682bbe5d\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Klaus Dieter\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\a13480af05970226f8ad4c1b5ac78450\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Klaus Dieter\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\a13480af05970226f8ad4c1b5ac78450\AndroidManifest.xml:5:5-7:41
+INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+		ADDED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Xdrip+\Amazfit-Greatfit-Watchface2\app\src\main\AndroidManifest.xml

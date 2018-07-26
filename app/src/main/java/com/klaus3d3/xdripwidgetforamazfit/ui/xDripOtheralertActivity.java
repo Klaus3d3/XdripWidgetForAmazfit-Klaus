@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.os.Vibrator;
 import android.view.WindowManager;
 
+
 import android.widget.TextView;
 
 import com.klaus3d3.xdripwidgetforamazfit.R2;

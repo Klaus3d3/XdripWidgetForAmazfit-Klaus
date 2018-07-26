@@ -7,6 +7,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.ByteArrayInputStream;
 import android.util.Base64;
 import java.nio.ByteBuffer;
+import android.provider.Settings;
 
 public class xDripDataRecieved {
     private Long date;
